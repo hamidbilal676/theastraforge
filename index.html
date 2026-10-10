@@ -3,202 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Astra Forge — AI Video Agency</title>
-<meta name="description" content="The Astra Forge is an AI video production agency. Commercials, promos, talking-head videos and short-form content built to grow your brand.">
-<style>
-  :root{
-    --bg:#0e0f0c; --bg2:#121410; --card:#1a1d18; --card2:#20241e;
-    --green:#22c55e; --green-dark:#15803d; --white:#ffffff; --mut:#a3a8a0;
-    --radius:18px;
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{background:var(--bg);color:var(--white);
-    font-family:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;
-    line-height:1.65;-webkit-font-smoothing:antialiased}
-  a{color:inherit;text-decoration:none}
-  .wrap{max-width:1200px;margin:0 auto;padding:0 28px}
-  section{padding:96px 0}
-  .eyebrow{color:var(--green);font-weight:700;font-size:13px;letter-spacing:3px;
-    text-transform:uppercase;margin-bottom:18px}
-  h1,h2{line-height:1.15;letter-spacing:-0.5px}
-  h2{font-size:clamp(30px,4vw,44px);margin-bottom:18px}
-  .lead{color:var(--mut);font-size:18px;max-width:680px}
-  .btn{display:inline-block;background:var(--green);color:#062b16;font-weight:700;
-    padding:15px 34px;border-radius:50px;font-size:16px;border:none;cursor:pointer;
-    transition:transform .15s,box-shadow .15s}
-  .btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(34,197,94,.35)}
-  .btn-ghost{background:transparent;color:var(--white);border:2px solid #3a3f38}
-  .btn-ghost:hover{border-color:var(--green);box-shadow:none}
-
-  /* ---------- NAV ---------- */
-  header{position:sticky;top:0;z-index:100;background:rgba(14,15,12,.82);
-    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-    border-bottom:1px solid rgba(255,255,255,.06)}
-  nav{display:flex;align-items:center;justify-content:space-between;height:76px}
-  .logo{font-weight:800;font-size:17px;letter-spacing:1.5px}
-  .logo span{color:var(--green)}
-  .nav-links{display:flex;gap:34px;align-items:center}
-  .nav-links a{color:var(--mut);font-size:15px;font-weight:500;transition:color .15s}
-  .nav-links a:hover{color:var(--white)}
-  .nav-cta{background:var(--green);color:#062b16;font-weight:700;padding:11px 24px;
-    border-radius:50px;font-size:14px}
-  .nav-cta:hover{box-shadow:0 6px 18px rgba(34,197,94,.35)}
-  .burger{display:none;background:none;border:none;color:var(--white);font-size:26px;cursor:pointer}
-
-  /* ---------- HERO ---------- */
-  .hero{padding:110px 0 90px;position:relative;overflow:hidden}
-  .hero::before{content:'';position:absolute;top:-200px;left:50%;transform:translateX(-50%);
-    width:900px;height:500px;background:radial-gradient(ellipse,rgba(34,197,94,.12),transparent 70%);
-    pointer-events:none}
-  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center;position:relative}
-  .hero h1{font-size:clamp(38px,5.2vw,62px);margin:18px 0 22px}
-  .hero h1 .g{color:var(--green)}
-  .hero p{color:var(--mut);font-size:18px;margin-bottom:34px;max-width:520px}
-  .hero-btns{display:flex;gap:16px;flex-wrap:wrap}
-  .hero-stats{display:flex;gap:44px;margin-top:52px}
-  .hero-stats b{display:block;font-size:30px;color:var(--white)}
-  .hero-stats span{color:var(--mut);font-size:13px}
-  /* hero visual */
-  .hero-visual{position:relative}
-  .video-card{background:linear-gradient(145deg,#1c211b,#141713);border:1px solid rgba(255,255,255,.07);
-    border-radius:24px;padding:26px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
-  .screen{aspect-ratio:16/9;border-radius:14px;background:
-    radial-gradient(circle at 30% 20%,#243024,#101310 70%);
-    display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-  .screen::after{content:'';position:absolute;inset:0;
-    background:linear-gradient(120deg,transparent 30%,rgba(34,197,94,.08) 50%,transparent 70%)}
-  .play{width:84px;height:84px;border-radius:50%;background:var(--green);display:flex;
-    align-items:center;justify-content:center;box-shadow:0 0 0 14px rgba(34,197,94,.15);
-    position:relative;z-index:1}
-  .play::after{content:'';border-left:22px solid #062b16;border-top:14px solid transparent;
-    border-bottom:14px solid transparent;margin-left:6px}
-  .timeline{display:flex;gap:8px;margin-top:18px}
-  .timeline i{height:6px;border-radius:3px;background:#2c332b;flex:1}
-  .timeline i.on{background:var(--green);flex:2.2}
-  .chip{position:absolute;background:var(--card2);border:1px solid rgba(255,255,255,.09);
-    border-radius:14px;padding:12px 18px;font-size:13px;box-shadow:0 12px 30px rgba(0,0,0,.45)}
-  .chip b{color:var(--green);font-size:18px;display:block}
-  .chip.c1{top:-24px;right:8px}
-  .chip.c2{bottom:-24px;left:8px}
-
-  /* ---------- MISSION ---------- */
-  .mission{background:var(--bg2)}
-  .mission-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-  .mission p{color:var(--mut);margin-bottom:18px;font-size:17px}
-  .text-link{color:var(--green);font-weight:700;font-size:16px}
-  .text-link:hover{text-decoration:underline}
-  .mission-visual{background:var(--card);border-radius:var(--radius);padding:40px;
-    border:1px solid rgba(255,255,255,.06)}
-  .bar-row{display:flex;align-items:center;gap:14px;margin-bottom:20px;font-size:14px}
-  .bar-row span:first-child{width:110px;color:var(--mut)}
-  .bar{flex:1;height:10px;background:#2a2f29;border-radius:5px;overflow:hidden}
-  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--green-dark),var(--green));
-    border-radius:5px}
-
-  /* ---------- NICHE ---------- */
-  .niche-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-  .niche ul{list-style:none;margin:26px 0 34px}
-  .niche li{padding:13px 0 13px 34px;position:relative;color:#d6d9d3;font-size:16px;
-    border-bottom:1px solid rgba(255,255,255,.05)}
-  .niche li::before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:800}
-  .niche-visual{background:linear-gradient(150deg,#18251c,#101310);border-radius:24px;
-    border:1px solid rgba(34,197,94,.18);padding:44px;position:relative;overflow:hidden}
-  .niche-visual .big{font-size:64px;margin-bottom:10px}
-  .niche-visual h3{font-size:24px;margin-bottom:10px}
-  .niche-visual p{color:var(--mut);font-size:15px}
-
-  /* ---------- NUMBERED ---------- */
-  .alt{background:var(--bg2)}
-  .num-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px 64px;margin-top:48px}
-  .num-item{display:flex;gap:22px}
-  .num{font-size:40px;font-weight:800;color:var(--green);line-height:1;min-width:64px;opacity:.9}
-  .num-item h3{font-size:19px;margin-bottom:8px}
-  .num-item p{color:var(--mut);font-size:15px}
-  .num-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:48px}
-  .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:48px}
-  .why-card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);
-    padding:32px}
-  .why-card .num{font-size:30px;margin-bottom:14px}
-  .why-card h3{font-size:18px;margin-bottom:8px}
-  .why-card p{color:var(--mut);font-size:14.5px}
-
-  /* ---------- SERVICES ---------- */
-  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:52px}
-  .svc{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);
-    padding:36px 30px;transition:transform .18s,border-color .18s}
-  .svc:hover{transform:translateY(-6px);border-color:rgba(34,197,94,.4)}
-  .svc .icon{font-size:40px;margin-bottom:18px}
-  .svc h3{font-size:19px;margin-bottom:10px}
-  .svc p{color:var(--mut);font-size:14.5px}
-
-  /* ---------- TESTIMONIALS ---------- */
-  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:52px}
-  .testi{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);
-    padding:34px 30px;display:flex;flex-direction:column}
-  .testi .stars{color:var(--green);letter-spacing:3px;margin-bottom:16px;font-size:15px}
-  .testi p{color:#d6d9d3;font-size:15.5px;flex:1;margin-bottom:24px}
-  .testi .who{display:flex;align-items:center;gap:14px}
-  .avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--green-dark),var(--green));
-    display:flex;align-items:center;justify-content:center;font-weight:800;color:#062b16;font-size:18px}
-  .who b{display:block;font-size:15px}
-  .who span{color:var(--mut);font-size:13px}
-
-  /* ---------- CTA BANNER ---------- */
-  .cta-banner{background:linear-gradient(135deg,#16a34a,#22c55e);border-radius:28px;
-    padding:80px 60px;text-align:center;position:relative;overflow:hidden}
-  .cta-banner::before{content:'';position:absolute;width:420px;height:420px;border-radius:50%;
-    background:rgba(255,255,255,.09);top:-200px;right:-120px}
-  .cta-banner h2{color:#fff;font-size:clamp(30px,4vw,46px);margin-bottom:14px;position:relative}
-  .cta-banner p{color:#e7f9ee;margin-bottom:34px;font-size:17px;position:relative}
-  .btn-white{background:#fff;color:#0b3d1e;position:relative}
-  .btn-white:hover{box-shadow:0 8px 24px rgba(0,0,0,.25)}
-
-  /* ---------- FAQ ---------- */
-  .faq{max-width:820px;margin:48px auto 0}
-  .faq-item{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:14px;
-    margin-bottom:14px;overflow:hidden}
-  .faq-q{width:100%;background:none;border:none;color:var(--white);font-size:17px;font-weight:600;
-    padding:22px 26px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;
-    text-align:left;font-family:inherit}
-  .faq-q .plus{color:var(--green);font-size:26px;font-weight:400;transition:transform .25s;flex-shrink:0;margin-left:16px}
-  .faq-item.open .plus{transform:rotate(45deg)}
-  .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--mut);
-    font-size:15.5px}
-  .faq-a div{padding:0 26px 24px}
-
-  /* ---------- FOOTER ---------- */
-  footer{background:#0a0b09;border-top:1px solid rgba(255,255,255,.06);padding:70px 0 34px}
-  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:44px;margin-bottom:52px}
-  .foot-grid h4{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--mut);
-    margin-bottom:20px}
-  .foot-grid ul{list-style:none}
-  .foot-grid li{margin-bottom:12px}
-  .foot-grid a{color:#c9cdc6;font-size:15px}
-  .foot-grid a:hover{color:var(--green)}
-  .foot-grid p{color:var(--mut);font-size:15px}
-  .social{display:flex;gap:12px;margin-top:20px}
-  .social a{width:40px;height:40px;border-radius:50%;background:var(--card2);display:flex;
-    align-items:center;justify-content:center;font-size:15px;font-weight:700;color:var(--mut)}
-  .social a:hover{background:var(--green);color:#062b16}
-  .copy{border-top:1px solid rgba(255,255,255,.06);padding-top:28px;display:flex;
-    justify-content:space-between;color:#6b706a;font-size:13.5px;flex-wrap:wrap;gap:10px}
-
-  /* ---------- RESPONSIVE ---------- */
-  @media(max-width:900px){
-    section{padding:70px 0}
-    .nav-links{display:none;position:absolute;top:76px;left:0;right:0;background:#101210;
-      flex-direction:column;padding:24px;gap:20px;border-bottom:1px solid rgba(255,255,255,.08)}
-    .nav-links.open{display:flex}
-    .burger{display:block}
-    .hero-grid,.mission-grid,.niche-grid{grid-template-columns:1fr;gap:48px}
-    .hero{padding:70px 0 60px}
-    .num-grid,.num-grid-3,.why-grid,.svc-grid,.testi-grid,.foot-grid{grid-template-columns:1fr}
-    .chip.c1{top:-18px}.chip.c2{bottom:-18px}
-    .cta-banner{padding:56px 28px}
-    .copy{flex-direction:column}
-  }
-</style>
+<title>The Astra Forge — AI Video Agency | Commercials &amp; Promos</title>
+<meta name="description" content="AI video agency crafting commercials, promos, talking-head videos &amp; brand films. Scroll-stopping video production built to grow your brand.">
+<meta name="keywords" content="AI video agency, video production, commercials, talking-head videos, brand films, short-form content, AI avatars, product explainers">
+<meta name="author" content="The Astra Forge">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://theastraforge.com/">
+<meta name="theme-color" content="#0e0f0c">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'">
+<meta property="og:title" content="The Astra Forge — AI Video Agency | Commercials &amp; Promos">
+<meta property="og:description" content="AI video agency crafting commercials, promos, talking-head videos &amp; brand films. Scroll-stopping video production built to grow your brand.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://theastraforge.com/">
+<meta property="og:site_name" content="The Astra Forge">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Astra Forge — AI Video Agency | Commercials &amp; Promos">
+<meta name="twitter:description" content="AI video agency crafting commercials, promos, talking-head videos &amp; brand films. Scroll-stopping video production built to grow your brand.">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"The Astra Forge","url":"https://theastraforge.com/","slogan":"Built to rise","sameAs":[]},{"@type":"WebSite","name":"The Astra Forge","url":"https://theastraforge.com/"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long does a typical video project take?","acceptedAnswer":{"@type":"Answer","text":"Most short-form videos are delivered within 48–72 hours. Larger commercials and brand films typically take 1–2 weeks from concept approval to final delivery."}},{"@type":"Question","name":"What do you need from me to get started?","acceptedAnswer":{"@type":"Answer","text":"Just your goal and any references you like — a script, a competitor video, or even a rough idea in a voice note. We handle concept, production and delivery from there."}},{"@type":"Question","name":"Can you match my brand's look and style?","acceptedAnswer":{"@type":"Answer","text":"Yes. We lock characters, colors, fonts and tone to your brand guidelines before production, so every video feels unmistakably yours."}},{"@type":"Question","name":"Do I own the final videos?","acceptedAnswer":{"@type":"Answer","text":"Completely. You receive full commercial rights to every final file, in all formats you need for ads, social and your website."}},{"@type":"Question","name":"How does pricing work?","acceptedAnswer":{"@type":"Answer","text":"Every project gets a fixed quote before we start — no hourly surprises. We also offer monthly content retainers for brands that publish regularly."}},{"@type":"Question","name":"Can you create videos in other languages?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our AI voiceovers support many languages with natural emotion and lip-sync, so one concept can serve multiple markets."}}]}]}</script>
+<style>:root{--bg:#0e0f0c;--bg2:#121410;--card:#1a1d18;--card2:#20241e;--green:#22c55e;--green-dark:#15803d;--white:#ffffff;--mut:#a3a8a0;--radius:18px}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--white);font-family:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}.wrap{max-width:1200px;margin:0 auto;padding:0 28px}section{padding:96px 0}.eyebrow{color:var(--green);font-weight:700;font-size:13px;letter-spacing:3px;text-transform:uppercase;margin-bottom:18px}h1,h2{line-height:1.15;letter-spacing:-0.5px}h2{font-size:clamp(30px,4vw,44px);margin-bottom:18px}.lead{color:var(--mut);font-size:18px;max-width:680px}.btn{display:inline-block;background:var(--green);color:#062b16;font-weight:700;padding:15px 34px;border-radius:50px;font-size:16px;border:none;cursor:pointer;transition:transform .15s,box-shadow .15s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(34,197,94,.35)}.btn-ghost{background:transparent;color:var(--white);border:2px solid #3a3f38}.btn-ghost:hover{border-color:var(--green);box-shadow:none}header{position:sticky;top:0;z-index:100;background:rgba(14,15,12,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.06)}nav{display:flex;align-items:center;justify-content:space-between;height:76px}.logo{font-weight:800;font-size:17px;letter-spacing:1.5px}.logo span{color:var(--green)}.nav-links{display:flex;gap:34px;align-items:center}.nav-links a{color:var(--mut);font-size:15px;font-weight:500;transition:color .15s}.nav-links a:hover{color:var(--white)}.nav-cta{background:var(--green);color:#062b16;font-weight:700;padding:11px 24px;border-radius:50px;font-size:14px}.nav-cta:hover{box-shadow:0 6px 18px rgba(34,197,94,.35)}.burger{display:none;background:none;border:none;color:var(--white);font-size:26px;cursor:pointer}.hero{padding:110px 0 90px;position:relative;overflow:hidden}.hero::before{content:'';position:absolute;top:-200px;left:50%;transform:translateX(-50%);width:900px;height:500px;background:radial-gradient(ellipse,rgba(34,197,94,.12),transparent 70%);pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center;position:relative}.hero h1{font-size:clamp(38px,5.2vw,62px);margin:18px 0 22px}.hero h1 .g{color:var(--green)}.hero p{color:var(--mut);font-size:18px;margin-bottom:34px;max-width:520px}.hero-btns{display:flex;gap:16px;flex-wrap:wrap}.hero-stats{display:flex;gap:44px;margin-top:52px}.hero-stats b{display:block;font-size:30px;color:var(--white)}.hero-stats span{color:var(--mut);font-size:13px}.hero-visual{position:relative}.video-card{background:linear-gradient(145deg,#1c211b,#141713);border:1px solid rgba(255,255,255,.07);border-radius:24px;padding:26px;box-shadow:0 30px 80px rgba(0,0,0,.5)}.screen{aspect-ratio:16/9;border-radius:14px;background:radial-gradient(circle at 30% 20%,#243024,#101310 70%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.screen::after{content:'';position:absolute;inset:0;background:linear-gradient(120deg,transparent 30%,rgba(34,197,94,.08)50%,transparent 70%)}.play{width:84px;height:84px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 14px rgba(34,197,94,.15);position:relative;z-index:1}.play::after{content:'';border-left:22px solid #062b16;border-top:14px solid transparent;border-bottom:14px solid transparent;margin-left:6px}.timeline{display:flex;gap:8px;margin-top:18px}.timeline i{height:6px;border-radius:3px;background:#2c332b;flex:1}.timeline i.on{background:var(--green);flex:2.2}.chip{position:absolute;background:var(--card2);border:1px solid rgba(255,255,255,.09);border-radius:14px;padding:12px 18px;font-size:13px;box-shadow:0 12px 30px rgba(0,0,0,.45)}.chip b{color:var(--green);font-size:18px;display:block}.chip.c1{top:-24px;right:8px}.chip.c2{bottom:-24px;left:8px}.mission{background:var(--bg2)}.mission-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}.mission p{color:var(--mut);margin-bottom:18px;font-size:17px}.text-link{color:var(--green);font-weight:700;font-size:16px}.text-link:hover{text-decoration:underline}.mission-visual{background:var(--card);border-radius:var(--radius);padding:40px;border:1px solid rgba(255,255,255,.06)}.bar-row{display:flex;align-items:center;gap:14px;margin-bottom:20px;font-size:14px}.bar-row span:first-child{width:110px;color:var(--mut)}.bar{flex:1;height:10px;background:#2a2f29;border-radius:5px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--green-dark),var(--green));border-radius:5px}.niche-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}.niche ul{list-style:none;margin:26px 0 34px}.niche li{padding:13px 0 13px 34px;position:relative;color:#d6d9d3;font-size:16px;border-bottom:1px solid rgba(255,255,255,.05)}.niche li::before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:800}.niche-visual{background:linear-gradient(150deg,#18251c,#101310);border-radius:24px;border:1px solid rgba(34,197,94,.18);padding:44px;position:relative;overflow:hidden}.niche-visual .big{font-size:64px;margin-bottom:10px}.niche-visual h3{font-size:24px;margin-bottom:10px}.niche-visual p{color:var(--mut);font-size:15px}.alt{background:var(--bg2)}.num-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px 64px;margin-top:48px}.num-item{display:flex;gap:22px}.num{font-size:40px;font-weight:800;color:var(--green);line-height:1;min-width:64px;opacity:.9}.num-item h3{font-size:19px;margin-bottom:8px}.num-item p{color:var(--mut);font-size:15px}.num-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:48px}.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:48px}.why-card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);padding:32px}.why-card .num{font-size:30px;margin-bottom:14px}.why-card h3{font-size:18px;margin-bottom:8px}.why-card p{color:var(--mut);font-size:14.5px}.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:52px}.svc{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);padding:36px 30px;transition:transform .18s,border-color .18s}.svc:hover{transform:translateY(-6px);border-color:rgba(34,197,94,.4)}.svc .icon{font-size:40px;margin-bottom:18px}.svc h3{font-size:19px;margin-bottom:10px}.svc p{color:var(--mut);font-size:14.5px}.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:52px}.testi{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);padding:34px 30px;display:flex;flex-direction:column}.testi .stars{color:var(--green);letter-spacing:3px;margin-bottom:16px;font-size:15px}.testi p{color:#d6d9d3;font-size:15.5px;flex:1;margin-bottom:24px}.testi .who{display:flex;align-items:center;gap:14px}.avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--green-dark),var(--green));display:flex;align-items:center;justify-content:center;font-weight:800;color:#062b16;font-size:18px}.who b{display:block;font-size:15px}.who span{color:var(--mut);font-size:13px}.cta-banner{background:linear-gradient(135deg,#16a34a,#22c55e);border-radius:28px;padding:80px 60px;text-align:center;position:relative;overflow:hidden}.cta-banner::before{content:'';position:absolute;width:420px;height:420px;border-radius:50%;background:rgba(255,255,255,.09);top:-200px;right:-120px}.cta-banner h2{color:#fff;font-size:clamp(30px,4vw,46px);margin-bottom:14px;position:relative}.cta-banner p{color:#e7f9ee;margin-bottom:34px;font-size:17px;position:relative}.btn-white{background:#fff;color:#0b3d1e;position:relative}.btn-white:hover{box-shadow:0 8px 24px rgba(0,0,0,.25)}.faq{max-width:820px;margin:48px auto 0}.faq-item{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:14px;margin-bottom:14px;overflow:hidden}.faq-q{width:100%;background:none;border:none;color:var(--white);font-size:17px;font-weight:600;padding:22px 26px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;text-align:left;font-family:inherit}.faq-q .plus{color:var(--green);font-size:26px;font-weight:400;transition:transform .25s;flex-shrink:0;margin-left:16px}.faq-item.open .plus{transform:rotate(45deg)}.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--mut);font-size:15.5px}.faq-a div{padding:0 26px 24px}footer{background:#0a0b09;border-top:1px solid rgba(255,255,255,.06);padding:70px 0 34px}.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:44px;margin-bottom:52px}.foot-grid h4{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--mut);margin-bottom:20px}.foot-grid ul{list-style:none}.foot-grid li{margin-bottom:12px}.foot-grid a{color:#c9cdc6;font-size:15px}.foot-grid a:hover{color:var(--green)}.foot-grid p{color:var(--mut);font-size:15px}.social{display:flex;gap:12px;margin-top:20px}.social a{width:40px;height:40px;border-radius:50%;background:var(--card2);display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;color:var(--mut)}.social a:hover{background:var(--green);color:#062b16}.copy{border-top:1px solid rgba(255,255,255,.06);padding-top:28px;display:flex;justify-content:space-between;color:#6b706a;font-size:13.5px;flex-wrap:wrap;gap:10px}@media(max-width:900px){section{padding:70px 0}.nav-links{display:none;position:absolute;top:76px;left:0;right:0;background:#101210;flex-direction:column;padding:24px;gap:20px;border-bottom:1px solid rgba(255,255,255,.08)}.nav-links.open{display:flex}.burger{display:block}.hero-grid,.mission-grid,.niche-grid{grid-template-columns:1fr;gap:48px}.hero{padding:70px 0 60px}.num-grid,.num-grid-3,.why-grid,.svc-grid,.testi-grid,.foot-grid{grid-template-columns:1fr}.chip.c1{top:-18px}.chip.c2{bottom:-18px}.cta-banner{padding:56px 28px}.copy{flex-direction:column}}</style>
 </head>
 <body>
 
@@ -238,7 +61,7 @@
         <div><b>3M+</b><span>Views generated</span></div>
       </div>
     </div>
-    <div class="hero-visual">
+    <div class="hero-visual" role="img" aria-label="Illustration of a video player showing engagement statistics">
       <div class="video-card">
         <div class="screen"><div class="play"></div></div>
         <div class="timeline"><i class="on"></i><i></i><i></i><i></i><i></i></div>
@@ -259,7 +82,7 @@
       <p>Our method is simple: we listen to your goals, design a concept around your audience, and produce videos engineered to hold attention and drive action — not just views.</p>
       <a href="#contact" class="text-link">Partner with us to build your growth story →</a>
     </div>
-    <div class="mission-visual">
+    <div class="mission-visual" role="img" aria-label="Performance chart showing retention, engagement, conversion and turnaround metrics">
       <div class="bar-row"><span>Retention</span><div class="bar"><i style="width:92%"></i></div></div>
       <div class="bar-row"><span>Engagement</span><div class="bar"><i style="width:85%"></i></div></div>
       <div class="bar-row"><span>Conversions</span><div class="bar"><i style="width:78%"></i></div></div>
@@ -283,7 +106,7 @@
       </ul>
       <a href="#contact" class="btn">Get in Touch</a>
     </div>
-    <div class="niche-visual">
+    <div class="niche-visual" role="img" aria-label="Illustration promoting e-commerce product videos">
       <div class="big">🛍️</div>
       <h3>Your product, on screen, selling for you</h3>
       <p>From unboxing-style promos to full cinematic spots — we craft product videos that stop the scroll and start the checkout.</p>
@@ -473,34 +296,6 @@
   </div>
 </footer>
 
-<script>
-  // Mobile nav toggle
-  var burger = document.getElementById('burger');
-  var navLinks = document.getElementById('navLinks');
-  burger.addEventListener('click', function(){
-    navLinks.classList.toggle('open');
-  });
-  navLinks.addEventListener('click', function(e){
-    if(e.target.tagName === 'A') navLinks.classList.remove('open');
-  });
-
-  // FAQ accordion
-  var items = document.querySelectorAll('.faq-item');
-  items.forEach(function(item){
-    var q = item.querySelector('.faq-q');
-    var a = item.querySelector('.faq-a');
-    q.addEventListener('click', function(){
-      var isOpen = item.classList.contains('open');
-      items.forEach(function(other){
-        other.classList.remove('open');
-        other.querySelector('.faq-a').style.maxHeight = null;
-      });
-      if(!isOpen){
-        item.classList.add('open');
-        a.style.maxHeight = a.scrollHeight + 'px';
-      }
-    });
-  });
-</script>
+<script>var burger=document.getElementById('burger'),navLinks=document.getElementById('navLinks');burger.addEventListener('click',function(){navLinks.classList.toggle('open')});navLinks.addEventListener('click',function(e){if(e.target.tagName==='A')navLinks.classList.remove('open')});var items=document.querySelectorAll('.faq-item');items.forEach(function(item){var q=item.querySelector('.faq-q'),a=item.querySelector('.faq-a');q.addEventListener('click',function(){var isOpen=item.classList.contains('open');items.forEach(function(other){other.classList.remove('open');other.querySelector('.faq-a').style.maxHeight=null});if(!isOpen){item.classList.add('open');a.style.maxHeight=a.scrollHeight+'px'}})});</script>
 </body>
 </html>
