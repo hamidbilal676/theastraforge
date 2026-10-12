@@ -82,7 +82,7 @@ nav{display:flex;align-items:center;justify-content:space-between;height:74px;ga
 .pf-vid{position:relative;background:#000}
  .pf-sec{grid-column:1/-1;font-size:22px;font-weight:800;margin:28px 0 2px}.pf-sec:first-child{margin-top:0}
 .pf-vid video{width:100%;display:block;background:#000;aspect-ratio:9/13;object-fit:contain}
-.pf-vid video.landscape{aspect-ratio:9/13}
+.pf-vid video.landscape{aspect-ratio:16/9}
 .pf-body{padding:20px 22px 24px}
 .pf-body h3{font-size:17px;margin:10px 0 6px}
 .pf-body p{color:var(--mut);font-size:13.5px}
