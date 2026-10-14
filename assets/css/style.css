@@ -145,6 +145,7 @@ nav{display:flex;align-items:center;justify-content:space-between;height:74px;ga
 .cs-quote{font-style:italic;border-left:3px solid var(--green-b);padding-left:14px;margin:14px 0}
 .cs-card .more{display:inline-block;margin-top:8px;font-weight:800;color:var(--green)}
 .todo{background:#fef3c7;color:#92400e;padding:1px 6px;border-radius:6px;font-weight:600}
+.legal-draft{background:#fef3c7;color:#92400e;padding:12px 16px;border-radius:8px;font-weight:600}
 
 /* ---------- about ---------- */
 .about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:28px}
