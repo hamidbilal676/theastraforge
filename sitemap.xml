@@ -1,24 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://theastraforge.com/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://theastraforge.com/blog.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://theastraforge.com/case-studies/shopify-ugc-ads/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://theastraforge.com/case-studies/coach-talking-head/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://theastraforge.com/case-studies/saas-explainer/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://theastraforge.com/about.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://theastraforge.com/privacy.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theastraforge.com/terms.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theastraforge.com/blog/ai-spokesperson-videos-coaches.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/ai-ugc-video-ads-shopify.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/ai-video-editing-real-estate-agents.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/dental-video-marketing-ai.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/restaurant-video-marketing-ai.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/saas-explainer-videos-ai-editing.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/video-content-fitness-coaches-ai.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/video-marketing-law-firms-ai.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/ai-video-editing-cost-2026.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/ai-video-editing-services-australia.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/ai-video-editing-services-uk.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/ai-video-editing-services-usa.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://theastraforge.com/blog/best-ai-video-editing-services-2026.html</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url><loc>https://theastraforge.com/</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-thomas.jpg</video:thumbnail_loc>
+      <video:title>Thomas — AI Period Drama</video:title>
+      <video:description>Film-look AI drama set on a 232-acre farm.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/thomas.mp4</video:content_loc>
+      <video:duration>79</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-motherhood-4.jpg</video:thumbnail_loc>
+      <video:title>Motherhood Moment</video:title>
+      <video:description>Warm talking-head parenting moment ending in a hug.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/motherhood-4.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-skin-video.jpg</video:thumbnail_loc>
+      <video:title>Skincare Science Macro</video:title>
+      <video:description>Macro skincare clip with animated skin-cell science.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/skin-video.mp4</video:content_loc>
+      <video:duration>12</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-toddler.jpg</video:thumbnail_loc>
+      <video:title>Crab Float — 3D Cartoon</video:title>
+      <video:description>Cheerful 3D cartoon: toddler's tropical lagoon ride.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/toddler.mp4</video:content_loc>
+      <video:duration>28</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-baby-2.jpg</video:thumbnail_loc>
+      <video:title>Strong Baby — 3D Comedy</video:title>
+      <video:description>Pixar-style 3D comedy: a toddler out-lifts his dad.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/baby-2.mp4</video:content_loc>
+      <video:duration>10</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-tool.jpg</video:thumbnail_loc>
+      <video:title>Golden Cosmetics — Product 3D</video:title>
+      <video:description>3D product animation showing pore-extraction tech.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/tool.mp4</video:content_loc>
+      <video:duration>12</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-skin-video-german.jpg</video:thumbnail_loc>
+      <video:title>Aquafacial — 3D Skincare Ad</video:title>
+      <video:description>Playful 3D animation ad for a pore-cleansing device.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/skin-video-german.mp4</video:content_loc>
+      <video:duration>38</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-hermes-sample.jpg</video:thumbnail_loc>
+      <video:title>Hermès — Brand Story</video:title>
+      <video:description>Cinematic AI brand film: the 1837 leather workshop story. Concept / spec work — not affiliated with Hermès.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/hermes-sample.mp4</video:content_loc>
+      <video:duration>42</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-chief-ibrahim.jpg</video:thumbnail_loc>
+      <video:title>Chief Ibrahim — AI Drama</video:title>
+      <video:description>Nollywood-style AI drama with bold caption storytelling.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/chief-ibrahim.mp4</video:content_loc>
+      <video:duration>33</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-animie-1.jpg</video:thumbnail_loc>
+      <video:title>Anime Lyric Short</video:title>
+      <video:description>Emotional anime-style short with neon city visuals and lyrics.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/animie-1.mp4</video:content_loc>
+      <video:duration>46</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-cars-1.jpg</video:thumbnail_loc>
+      <video:title>Nissan GT-R Generations</video:title>
+      <video:description>Cinematic car edit tracing GT-R generations at sunset. Concept / spec work — not affiliated with Nissan.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/cars-1.mp4</video:content_loc>
+      <video:duration>48</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-food-489.jpg</video:thumbnail_loc>
+      <video:title>KRAVE 489 — Food Review</video:title>
+      <video:description>Talking-head restaurant review with tasty close-ups.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/food-489.mp4</video:content_loc>
+      <video:duration>37</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-perfume.jpg</video:thumbnail_loc>
+      <video:title>Perfume Ad — Fragrance Tips</video:title>
+      <video:description>Beauty ad: perfume tips with bold text overlays.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/perfume.mp4</video:content_loc>
+      <video:duration>56</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-ttrish-testimonial.jpg</video:thumbnail_loc>
+      <video:title>Ttrish — Testimonial</video:title>
+      <video:description>Talking-head testimonial with animated captions.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/ttrish-testimonial.mp4</video:content_loc>
+      <video:duration>78</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-soap-4-ad.jpg</video:thumbnail_loc>
+      <video:title>Soap Ad — 3D Animation</video:title>
+      <video:description>3D animated ad for a soap brand.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/soap-4-ad.mp4</video:content_loc>
+      <video:duration>66</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-serene-ad.jpg</video:thumbnail_loc>
+      <video:title>Serene — Testimonial Ad</video:title>
+      <video:description>Talking-head testimonial ad with animated captions.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/serene-ad.mp4</video:content_loc>
+      <video:duration>85</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-yoga-1.jpg</video:thumbnail_loc>
+      <video:title>Yoga Flow — Wellness</video:title>
+      <video:description>Calm yoga flow in a sunlit studio.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/yoga-1.mp4</video:content_loc>
+      <video:duration>36</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-ai-avatar-1.jpg</video:thumbnail_loc>
+      <video:title>AI Avatar Presenter</video:title>
+      <video:description>Photorealistic AI avatar delivering a testimonial script.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/ai-avatar-1.mp4</video:content_loc>
+      <video:duration>67</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-music-video-1.jpg</video:thumbnail_loc>
+      <video:title>Family Car — 3D Cartoon</video:title>
+      <video:description>Cheerful 3D cartoon of kids in a family car.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/music-video-1.mp4</video:content_loc>
+      <video:duration>56</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-sample-video-1.jpg</video:thumbnail_loc>
+      <video:title>LLC Ad — Sample</video:title>
+      <video:description>Cinematic ad for US LLC formation services.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/sample-video-1.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-sub3-final.jpg</video:thumbnail_loc>
+      <video:title>Qadar Skin — French UGC</video:title>
+      <video:description>French UGC ad for a skincare tea brand.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/sub3-final.mp4</video:content_loc>
+      <video:duration>42</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-sub3-video-1-new.jpg</video:thumbnail_loc>
+      <video:title>Qadar Skin — Product Showcase</video:title>
+      <video:description>French product showcase for Qadar Skin.</video:description>
+      <video:content_loc>https://theastraforge.com/videos/sub3-video-1-new.mp4</video:content_loc>
+      <video:duration>37</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://theastraforge.com/thumb-racetrax.jpg</video:thumbnail_loc>
+      <video:title>Race Trax — AI Video</video:title>
+      <video:description>Fully AI-generated video: concept, visuals and motion crafted end-to-end.</video:description>
+      <video:content_loc>https://theastraforge.com/racetrax-video.mp4</video:content_loc>
+      <video:duration>504</video:duration>
+      <video:publication_date>2026-10-12T00:00:00+05:00</video:publication_date>
+    </video:video>
+  </url>
+  <url><loc>https://theastraforge.com/blog.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+  </url>
+  <url><loc>https://theastraforge.com/case-studies/shopify-ugc-ads/</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.7</priority>
+  </url>
+  <url><loc>https://theastraforge.com/case-studies/coach-talking-head/</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.7</priority>
+  </url>
+  <url><loc>https://theastraforge.com/case-studies/saas-explainer/</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.7</priority>
+  </url>
+  <url><loc>https://theastraforge.com/about.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.7</priority>
+  </url>
+  <url><loc>https://theastraforge.com/privacy.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.5</priority>
+  </url>
+  <url><loc>https://theastraforge.com/terms.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.5</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/ai-spokesperson-videos-coaches.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/ai-ugc-video-ads-shopify.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/ai-video-editing-real-estate-agents.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/dental-video-marketing-ai.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/restaurant-video-marketing-ai.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/saas-explainer-videos-ai-editing.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/video-content-fitness-coaches-ai.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/video-marketing-law-firms-ai.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/ai-video-editing-cost-2026.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/ai-video-editing-services-australia.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/ai-video-editing-services-uk.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/ai-video-editing-services-usa.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
+  <url><loc>https://theastraforge.com/blog/best-ai-video-editing-services-2026.html</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+  </url>
 </urlset>
