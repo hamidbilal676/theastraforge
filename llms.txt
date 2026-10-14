@@ -15,7 +15,7 @@
 - AI-powered workflow: faster turnaround (48-hour delivery available)
 - Free sample edit for new clients
 - Portfolio of real client work streams on the site (no YouTube redirect)
-- Pricing: Starter $499/mo, Growth $899/mo, Scale $1499/mo (see /#pricing)
+- Pricing: pay per video (short-form $15/short, talking-head $30/min, AI avatar $50/min, course production $30/min); monthly packages Starter $199/mo, Growth $499/mo, Brand $999/mo; course packages Mini $799, Full $1,499 (see /#pricing)
 
 ## Who we serve
 Real estate agents, coaches and course creators, Shopify/DTC brands, restaurants, law firms, dentists and clinics, fitness coaches, SaaS companies, podcasters and YouTubers — in the USA, UK, Europe, Canada, Australia and worldwide.

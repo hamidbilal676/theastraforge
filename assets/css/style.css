@@ -124,6 +124,17 @@ nav{display:flex;align-items:center;justify-content:space-between;height:74px;ga
 .price-card li{padding:11px 0 11px 36px;position:relative;color:var(--mut);font-size:15px;border-bottom:1px solid var(--line)}
 .price-card li::before{content:'\2713';position:absolute;left:0;top:11px;width:24px;height:24px;border-radius:50%;background:var(--grad);color:#04160b;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center}
 .price-card li.no::before{content:'\2715';background:var(--card2);color:var(--mut)}
+.price-group{margin-top:56px}
+.price-group-title{font-size:24px;text-align:center;margin-bottom:6px}
+.price-group-sub{text-align:center;color:var(--mut);font-size:15px;margin-bottom:28px}
+.price-grid.four{grid-template-columns:repeat(4,1fr);max-width:1200px;margin-top:0}
+.price-grid.three{grid-template-columns:repeat(3,1fr);max-width:1200px;margin-top:0}
+.price-grid.four .price-card,.price-grid.three .price-card{padding:32px 26px}
+.value-line{margin:10px 0 14px;font-size:14px}
+.strike{color:var(--mut);text-decoration:line-through}
+.save-badge{display:inline-block;background:var(--grad);color:#04160b;font-weight:800;font-size:12px;padding:3px 10px;border-radius:50px;margin-left:8px}
+.popular-badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--grad);color:#04160b;font-weight:800;font-size:12px;padding:5px 14px;border-radius:50px;white-space:nowrap}
+.rush-note{text-align:center;color:var(--mut);font-size:14px;margin-top:32px}
 .big-price{font-size:44px;font-weight:800;letter-spacing:-1px}
 .big-price small{font-size:16px;color:var(--mut);font-weight:600}
 /* ---------- results ---------- */
@@ -188,7 +199,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 .article em{color:var(--mut)}
 .rel-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:32px}
 /* ---------- responsive ---------- */
-@media(max-width:1000px){.svc-grid,.demo-grid{grid-template-columns:repeat(2,1fr)}.pf-grid{grid-template-columns:repeat(2,1fr)}.blog-grid{grid-template-columns:repeat(2,1fr)}.res-grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:1000px){.svc-grid,.demo-grid{grid-template-columns:repeat(2,1fr)}.pf-grid{grid-template-columns:repeat(2,1fr)}.blog-grid{grid-template-columns:repeat(2,1fr)}.res-grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.price-grid.four{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:900px){
   section{padding:64px 0}
   .nav-links{display:none;position:absolute;top:74px;left:0;right:0;background:var(--bg);flex-direction:column;padding:22px;gap:18px;border-bottom:1px solid var(--line)}
