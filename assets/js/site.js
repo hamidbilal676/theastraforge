@@ -69,6 +69,9 @@ function initHero3D(){
   window.addEventListener('pointermove',function(e){mx=(e.clientX/window.innerWidth-0.5);my=(e.clientY/window.innerHeight-0.5);},{passive:true});
   var t=0,run=true;
   document.addEventListener('visibilitychange',function(){run=!document.hidden;if(run)loop();});
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(function(es){run=!document.hidden&&es[0].isIntersecting;if(run)loop();},{threshold:0}).observe(canvas);
+  }
   function loop(){
     if(!run)return;
     requestAnimationFrame(loop);
