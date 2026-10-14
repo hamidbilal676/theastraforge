@@ -162,6 +162,7 @@ nav{display:flex;align-items:center;justify-content:space-between;height:74px;ga
 .big-price small{font-size:16px;color:var(--mut);font-weight:600}
 /* ---------- results ---------- */
 .res-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:48px}
+.res-note{text-align:center;color:var(--mut);font-size:13.5px;margin-top:18px}
 .res-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:34px 28px;text-align:center;transition:transform .18s}
 .res-card:hover{transform:translateY(-6px)}
 .res-card b{display:block;font-size:40px;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-1px}
