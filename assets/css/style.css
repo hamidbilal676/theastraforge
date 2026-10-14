@@ -1,21 +1,27 @@
 /* The Astra Forge — AI video editing agency. Light default, dark via [data-theme="dark"]. */
 :root{
-  --bg:#f5f8f5; --bg2:#ecf3ec; --card:#ffffff; --card2:#f0f5f0;
-  --ink:#0e130e; --mut:#5a645a; --line:rgba(14,19,14,.10);
+  --bg:#faf6ed; --bg2:#f1ebdb; --card:#ffffff; --card2:#f7f2e6;
+  --ink:#101a13; --mut:#5c665c; --line:rgba(16,26,19,.12);
   --green:#16a34a; --green-b:#22c55e; --green-l:#4ade80; --green-ink:#052e16;
   --grad:linear-gradient(90deg,#16a34a,#22c55e,#4ade80);
   --r:20px; --sh:0 18px 50px rgba(20,40,20,.10);
   --hero-glow:rgba(34,197,94,.16);
 }
 [data-theme="dark"]{
-  --bg:#0d100d; --bg2:#11140f; --card:#161a15; --card2:#1b201a;
-  --ink:#f1f4f0; --mut:#a7b0a5; --line:rgba(255,255,255,.10);
+  --bg:#0a1a12; --bg2:#0e2318; --card:#122a1d; --card2:#162e20;
+  --ink:#eef4ef; --mut:#a9b8ab; --line:rgba(134,239,172,.14);
   --green:#4ade80; --green-b:#22c55e; --green-l:#86efac; --green-ink:#04160b;
   --sh:0 18px 50px rgba(0,0,0,.45);
   --hero-glow:rgba(34,197,94,.14);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
+/* ---------- fancy scrollbar ---------- */
+*{scrollbar-width:thin;scrollbar-color:#22c55e var(--bg2)}
+::-webkit-scrollbar{width:11px;height:11px}
+::-webkit-scrollbar-track{background:var(--bg2);border-radius:8px}
+::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#4ade80,#16a34a);border-radius:8px;border:2px solid var(--bg2)}
+::-webkit-scrollbar-thumb:hover{background:linear-gradient(180deg,#86efac,#22c55e);border-color:var(--bg2)}
 body{background:var(--bg);color:var(--ink);font-family:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden;transition:background .25s,color .25s}
 h1,h2,h3{font-family:'Space Grotesk','Inter',system-ui,sans-serif;line-height:1.12;letter-spacing:-.5px;font-weight:700}
 a{color:inherit;text-decoration:none}
@@ -262,7 +268,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
   .burger{display:block}
   .nav-cta{display:none}
   .hero{padding:70px 0 60px}
-  .price-grid,.foot-grid{grid-template-columns:1fr}
+  .price-grid,.price-grid.four,.foot-grid{grid-template-columns:1fr}
   .form-grid{grid-template-columns:1fr}
   .lead-form{padding:24px 20px}
   .pf-grid,.blog-grid,.svc-grid,.demo-grid,.res-grid,.steps,.rel-grid,.cs-grid,.about-grid{grid-template-columns:1fr}
