@@ -33,8 +33,8 @@
     else{secs.forEach(function(x){x.style.display='none';});cards.forEach(function(c){c.style.display=(c.getAttribute('data-cat')===f)?'':'none';});}
   });});}
 })();
-/* ---------- Three.js 3D hero ---------- */
-(function(){
+/* ---------- Three.js 3D hero (lazy-loaded) ---------- */
+function initHero3D(){
   var canvas=document.getElementById('bg3d');
   if(!canvas||typeof THREE==='undefined')return;
   if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -82,7 +82,7 @@
     renderer.render(scene,camera);
   }
   loop();
-})();
+}
 
 /* ---------- lead form: package pre-select + Formspree submit ---------- */
 (function(){
@@ -123,4 +123,20 @@
         if(submit){submit.disabled=false;submit.textContent='Send Request';}
       });
   });
+})();
+
+/* Lazy-load three.js after the page is interactive — keeps it off the critical path */
+(function(){
+  function load(){
+    if(typeof THREE!=='undefined'){initHero3D();return;}
+    var sc=document.createElement('script');
+    sc.src='https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js';
+    sc.onload=function(){try{initHero3D();}catch(e){}};
+    document.head.appendChild(sc);
+  }
+  if('requestIdleCallback' in window){
+    window.addEventListener('load',function(){requestIdleCallback(load,{timeout:3000});});
+  }else{
+    window.addEventListener('load',function(){setTimeout(load,2000);});
+  }
 })();
