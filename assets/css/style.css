@@ -145,6 +145,12 @@ nav{display:flex;align-items:center;justify-content:space-between;height:74px;ga
 .cs-quote{font-style:italic;border-left:3px solid var(--green-b);padding-left:14px;margin:14px 0}
 .cs-card .more{display:inline-block;margin-top:8px;font-weight:800;color:var(--green)}
 .todo{background:#fef3c7;color:#92400e;padding:1px 6px;border-radius:6px;font-weight:600}
+
+/* ---------- about ---------- */
+.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:28px}
+.about-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.about-card b{display:block;font-size:17px;margin-bottom:6px}
+.about-card span{color:var(--mut);font-size:14.5px}
 .lead-form{max-width:760px;margin:36px auto 0;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:36px;box-shadow:var(--sh)}
 .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .form-field{display:flex;flex-direction:column;gap:6px}
@@ -235,7 +241,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
   .price-grid,.foot-grid{grid-template-columns:1fr}
   .form-grid{grid-template-columns:1fr}
   .lead-form{padding:24px 20px}
-  .pf-grid,.blog-grid,.svc-grid,.demo-grid,.res-grid,.steps,.rel-grid,.cs-grid{grid-template-columns:1fr}
+  .pf-grid,.blog-grid,.svc-grid,.demo-grid,.res-grid,.steps,.rel-grid,.cs-grid,.about-grid{grid-template-columns:1fr}
   .cta-banner{padding:52px 26px}
   .copy{flex-direction:column}
 }
