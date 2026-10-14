@@ -1,6 +1,6 @@
 /* The Astra Forge — AI video editing agency. Light default, dark via [data-theme="dark"]. */
 :root{
-  --bg:#faf6ed; --bg2:#f1ebdb; --card:#ffffff; --card2:#f7f2e6;
+  --bg:#faf4e8; --bg2:#efe5cb; --card:#ffffff; --card2:#f6efdd;
   --ink:#101a13; --mut:#5c665c; --line:rgba(16,26,19,.12);
   --green:#16a34a; --green-b:#22c55e; --green-l:#4ade80; --green-ink:#052e16;
   --grad:linear-gradient(90deg,#16a34a,#22c55e,#4ade80);
@@ -8,11 +8,11 @@
   --hero-glow:rgba(34,197,94,.16);
 }
 [data-theme="dark"]{
-  --bg:#0a1a12; --bg2:#0e2318; --card:#122a1d; --card2:#162e20;
-  --ink:#eef4ef; --mut:#a9b8ab; --line:rgba(134,239,172,.14);
+  --bg:#0b2318; --bg2:#0f2e20; --card:#153a28; --card2:#1a4230;
+  --ink:#eef4ef; --mut:#a9b8ab; --line:rgba(134,239,172,.16);
   --green:#4ade80; --green-b:#22c55e; --green-l:#86efac; --green-ink:#04160b;
   --sh:0 18px 50px rgba(0,0,0,.45);
-  --hero-glow:rgba(34,197,94,.14);
+  --hero-glow:rgba(34,197,94,.20);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
