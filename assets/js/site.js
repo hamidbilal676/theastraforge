@@ -83,3 +83,44 @@
   }
   loop();
 })();
+
+/* ---------- lead form: package pre-select + Formspree submit ---------- */
+(function(){
+  var form=document.getElementById('leadForm');
+  var select=document.getElementById('lf-service');
+  function pick(val){
+    if(!select||!val)return;
+    var opt=Array.prototype.find.call(select.options,function(o){return o.value===val||o.text===val;});
+    if(opt)select.value=opt.value;
+  }
+  // pre-select from package buttons (Task 1 buttons carry data-package)
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('[data-package]');
+    if(btn)pick(btn.getAttribute('data-package'));
+  });
+  // pre-select from URL hash like #lead-form?package=Growth
+  try{
+    var m=window.location.hash.match(/package=([^&]+)/);
+    if(m)pick(decodeURIComponent(m[1]));
+  }catch(e){}
+  if(!form)return;
+  var submit=document.getElementById('lf-submit');
+  var err=document.getElementById('lf-error');
+  var ok=document.getElementById('lf-success');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(err)err.hidden=true;
+    if(!form.action){if(err)err.hidden=false;return;}
+    if(submit){submit.disabled=true;submit.textContent='Sending...';}
+    fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+      .then(function(r){if(!r.ok)throw new Error('submit failed');return r.json();})
+      .then(function(){
+        form.hidden=true;
+        if(ok){ok.hidden=false;ok.scrollIntoView({behavior:'smooth',block:'center'});}
+      })
+      .catch(function(){
+        if(err)err.hidden=false;
+        if(submit){submit.disabled=false;submit.textContent='Send Request';}
+      });
+  });
+})();

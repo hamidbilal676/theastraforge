@@ -135,6 +135,21 @@ nav{display:flex;align-items:center;justify-content:space-between;height:74px;ga
 .save-badge{display:inline-block;background:var(--grad);color:#04160b;font-weight:800;font-size:12px;padding:3px 10px;border-radius:50px;margin-left:8px}
 .popular-badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--grad);color:#04160b;font-weight:800;font-size:12px;padding:5px 14px;border-radius:50px;white-space:nowrap}
 .rush-note{text-align:center;color:var(--mut);font-size:14px;margin-top:32px}
+/* ---------- lead form ---------- */
+.lead-form{max-width:760px;margin:36px auto 0;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:36px;box-shadow:var(--sh)}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.form-field{display:flex;flex-direction:column;gap:6px}
+.form-field.full{grid-column:1/-1}
+.form-field label{font-weight:700;font-size:14px}
+.form-field .opt{font-weight:400;color:var(--mut)}
+.form-field input,.form-field select,.form-field textarea{font:inherit;font-size:15px;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);width:100%}
+.form-field input:focus,.form-field select:focus,.form-field textarea:focus{outline:2px solid var(--green-b);border-color:transparent}
+.lead-form .btn{margin-top:22px}
+.form-note{color:var(--mut);font-size:14px;margin-top:14px}
+.form-error{color:#dc2626;font-size:14px;margin-top:12px}
+.form-success{max-width:760px;margin:36px auto 0;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:36px;text-align:center;box-shadow:var(--sh)}
+.form-success h3{margin-bottom:8px}
+.form-success p{color:var(--mut)}
 .big-price{font-size:44px;font-weight:800;letter-spacing:-1px}
 .big-price small{font-size:16px;color:var(--mut);font-weight:600}
 /* ---------- results ---------- */
@@ -208,6 +223,8 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
   .nav-cta{display:none}
   .hero{padding:70px 0 60px}
   .price-grid,.foot-grid{grid-template-columns:1fr}
+  .form-grid{grid-template-columns:1fr}
+  .lead-form{padding:24px 20px}
   .pf-grid,.blog-grid,.svc-grid,.demo-grid,.res-grid,.steps,.rel-grid{grid-template-columns:1fr}
   .cta-banner{padding:52px 26px}
   .copy{flex-direction:column}

@@ -38,11 +38,11 @@
         <a href="/index.html#pricing">Pricing</a>
         <a href="/blog.html">Blog</a>
         <a href="/index.html#faq">FAQ</a>
-        <a href="/index.html#contact">Contact</a>
+        <a href="/index.html#lead-form">Contact</a>
       </div>
       <div class="nav-right">
         <button class="theme-btn" id="themeBtn" aria-label="Toggle light/dark theme">🌙</button>
-        <a href="/index.html#contact" class="btn nav-cta">Get Free Sample</a>
+        <a href="/index.html#lead-form" class="btn nav-cta">Get Free Sample</a>
         <button class="burger" id="burger" aria-label="Menu">☰</button>
       </div>
     </nav>
@@ -56,7 +56,7 @@
     <h1>Video content people <span class="grad">can't scroll past.</span></h1>
     <p class="sub">Talking-head edits, AI UGC ads, lifelike avatars &amp; short-form video for brands worldwide — crafted with AI, delivered in days, priced for growth.</p>
     <div class="hero-btns">
-      <a href="#contact" class="btn">Get a Free Sample Edit</a>
+      <a href="#lead-form" class="btn">Get a Free Sample Edit</a>
       <a href="#work" class="btn btn-ghost">▶ Watch Our Work</a>
     </div>
     <div class="trust"><span><b>500+</b> videos delivered</span><span><b>48h</b> turnaround</span><span><b>4.9/5</b> client rating</span><span><b>100%</b> US-focused</span></div>
@@ -641,7 +641,65 @@
     <div class="cta-banner">
       <h2>Your competitors are posting. Are you?</h2>
       <p>Get a free sample edit of YOUR footage — see the quality before you spend a dollar.</p>
-      <a href="mailto:Theastraforge@gmail.com?subject=Free%20sample%20edit%20request" class="btn">Get My Free Sample Edit</a>
+      <a href="#lead-form" class="btn">Get My Free Sample Edit</a>
+    </div>
+  </div>
+</section>
+
+<section id="lead-form">
+  <div class="wrap">
+    <div class="eyebrow" style="display:block;text-align:center">Get Started</div>
+    <h2 style="text-align:center">Get your <span class="grad">free sample edit</span></h2>
+    <p class="lead" style="text-align:center;margin:0 auto">Tell us what you need — we reply within 24 hours with your free sample edit and next steps.</p>
+    <form id="leadForm" class="lead-form" action="https://formspree.io/f/xoejkzwn" method="POST">
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="lf-name">Name *</label>
+          <input id="lf-name" name="name" type="text" required autocomplete="name" placeholder="Your name">
+        </div>
+        <div class="form-field">
+          <label for="lf-email">Email *</label>
+          <input id="lf-email" name="email" type="email" required autocomplete="email" placeholder="you@company.com">
+        </div>
+        <div class="form-field">
+          <label for="lf-company">Company / Website</label>
+          <input id="lf-company" name="company" type="text" autocomplete="organization" placeholder="Company or website URL">
+        </div>
+        <div class="form-field">
+          <label for="lf-service">Service needed *</label>
+          <select id="lf-service" name="service" required>
+            <option value="Free sample edit" selected>Free sample edit</option>
+            <option>Short-Form Edit — $15/short</option>
+            <option>Talking-Head Edit — $30/min</option>
+            <option>AI Avatar Video — $50/min</option>
+            <option>Course Production — $30/min</option>
+            <option>Starter — $199/mo</option>
+            <option>Growth — $499/mo</option>
+            <option>Brand — $999/mo</option>
+            <option>Mini Course — $799</option>
+            <option>Full Course — $1,499</option>
+            <option>Custom course quote</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="form-field full">
+          <label for="lf-footage">Footage link <span class="opt">(optional)</span></label>
+          <input id="lf-footage" name="footage_link" type="url" placeholder="Google Drive / Dropbox / WeTransfer link to your footage">
+        </div>
+        <div class="form-field full">
+          <label for="lf-message">Message</label>
+          <textarea id="lf-message" name="message" rows="4" placeholder="Tell us about your project, goals, and timeline..."></textarea>
+        </div>
+      </div>
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <input type="hidden" name="_subject" value="New lead — The Astra Forge">
+      <button type="submit" class="btn" id="lf-submit">Send Request</button>
+      <p class="form-note">We reply within 24 hours. Prefer WhatsApp? <a href="https://wa.me/923101622005" target="_blank" rel="noopener">Message us</a>.</p>
+      <p class="form-error" id="lf-error" hidden>Something went wrong — please try again or reach us on WhatsApp.</p>
+    </form>
+    <div class="form-success" id="lf-success" hidden>
+      <h3>Request received ✅</h3>
+      <p>Thanks! We&apos;ll reply within 24 hours with your free sample edit and next steps.</p>
     </div>
   </div>
 </section>
