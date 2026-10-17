@@ -66,4 +66,4 @@ Per-clip pricing runs **$15–$50 per finished short** depending on volume and a
 
 ## Start With One Episode
 
-The best proof is your own content. Send one recorded episode and get back finished clips — [The Astra Forge](/ "AI video editing agency") offers a free sample edit so you can see the clip quality on your own show before committing to anything.
+The best proof is your own content. Send one recorded episode and get back finished clips — [The Astra Forge](/) offers a free sample edit so you can see the clip quality on your own show before committing to anything.

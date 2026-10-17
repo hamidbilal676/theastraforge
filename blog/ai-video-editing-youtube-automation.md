@@ -57,4 +57,4 @@ YouTube's Partner Program requires 1,000 subscribers and 4,000 watch hours (or 1
 
 ## Getting Started
 
-If you have scripts ready, the fastest path is a sample edit: send one script and voiceover, get back a finished video, and judge the retention quality yourself. [The Astra Forge](/ "AI video editing agency") offers a free sample edit — no commitment — so you can see the faceless workflow on your own content before spending anything.
+If you have scripts ready, the fastest path is a sample edit: send one script and voiceover, get back a finished video, and judge the retention quality yourself. [The Astra Forge](/) offers a free sample edit — no commitment — so you can see the faceless workflow on your own content before spending anything.
