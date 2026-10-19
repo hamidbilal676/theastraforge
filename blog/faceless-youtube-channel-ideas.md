@@ -86,6 +86,19 @@ The YouTube Partner Program pays per thousand monetized views, and rates differ 
 
 One honest note: nobody can promise you income from a channel, and anyone who does is selling something. [TODO: real client result] What a good channel *can* give you is a compounding asset — every video keeps working while you sleep.
 
+## Watch: a faceless niche brought to life
+
+Take the health and wellness niche from the list above — here's what a faceless video in that space looks like when it's produced properly: calm pacing, captions doing the teaching, visuals holding attention without a presenter. Every niche on this list deserves this production bar.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/yoga-1.jpg">
+<source src="/videos/yoga-1.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: 36-second faceless wellness short with teaching-first captions — the same style we produce for faceless YouTube channels in any niche.</p>
+</div>
+</div>
+
 ## Don't want to produce it all yourself?
 
 Here's the part most idea lists skip: every niche above needs consistent, professional production to win. Scripts, voiceover, editing, thumbnails, uploads — week after week. That's exactly what our [YouTube automation service](/blog/youtube-automation-service.html) handles: done-for-you faceless channels from niche research to published video.

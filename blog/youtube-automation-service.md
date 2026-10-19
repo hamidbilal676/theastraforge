@@ -71,6 +71,19 @@ Pricing is simple: **$15 per finished short-form video**, with **$199–$999/mon
 
 No income promises, no subscriber guarantees — just professional production, delivered consistently, at a price that lets your channel survive long enough to compound.
 
+## Watch: what an automated-channel video looks like
+
+Car content is one of the classic faceless automation niches — and this clip shows the production bar: clean cuts, captions carrying the narrative, pacing built for retention. This is the quality level our YouTube automation service delivers on every upload, on schedule.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/cars-1.jpg">
+<source src="/videos/cars-1.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: 48-second faceless short with retention pacing and kinetic captions — the same production standard our YouTube automation service ships on every video.</p>
+</div>
+</div>
+
 ## Is automation right for you?
 
 Automation makes sense if you have capital but not time: you want the asset without the job. It doesn't make sense if you need income next month — YouTube is a slow game and anyone who tells you otherwise is selling something.

@@ -61,6 +61,19 @@ Pricing starts at **$15 per short-form video**, with long-form faceless videos q
 
 If your channel also needs short-form distribution, our [short-form video editing](/short-form-video-editing/) service cuts your long videos into Reels, TikToks, and Shorts that funnel viewers back to the channel. And for a broader view of what's possible, see our [AI video editing services](/ai-video-editing-services/) hub.
 
+## Watch: a faceless-style edit sample
+
+Here's the kind of pacing a faceless video needs to hold attention without a face on screen — motion, captions, and visual variety doing all the work. This clip is cut the way we cut faceless channel content: hook in the first seconds, zero dead air, every cut earning the next one.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/animie-1.jpg">
+<source src="/videos/animie-1.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: 46-second faceless-style short with kinetic captions and retention pacing — the same style we apply to faceless YouTube channel videos.</p>
+</div>
+</div>
+
 ## How to start
 
 Tell us your niche (or that you don't have one yet — we'll help you pick). We'll produce a **free sample** — a script excerpt with voiceover and edited visuals — so you can judge the quality before committing. No credit card, no commitment.

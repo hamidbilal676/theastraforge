@@ -58,6 +58,19 @@ Most smart DTC brands run a hybrid: real creators for a handful of hero assets, 
 
 [TODO: real client result]
 
+## Watch: an AI UGC ad sample
+
+This is what an AI UGC-style product ad looks like in our hands — product-forward framing, punchy captions, and a hook that stops the scroll. It's the same production approach we use for AI UGC video ads: fast, testable creative your media buyer can iterate on.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/perfume.jpg">
+<source src="/videos/perfume.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: 56-second product ad with hook-first captions and scroll-stopping pacing — the same style we apply to AI UGC video ads for DTC brands.</p>
+</div>
+</div>
+
 ## Pricing and turnaround
 
 **$15 per finished short.** One ad to test the quality, or volume from day one — same price, same 48-hour turnaround per video, one revision round included. **24-hour rush available at +25%** when a trend can't wait.
