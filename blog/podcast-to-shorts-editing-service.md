@@ -53,6 +53,19 @@ Optional but helpful: your timestamps. If you already know which moments were st
 
 That's it. No briefs, no calls, no onboarding decks. First-time clients usually get their sample clip back within 48 hours and wonder why they waited so long to start clipping.
 
+## Watch: the short-form style we cut from podcasts
+
+This clip isn't from a podcast — but it's cut exactly the way we cut podcast moments into shorts: one idea, hook in the first second, captions carrying the argument, zero dead air. Imagine your best 40 seconds, edited like this, posted everywhere your audience scrolls.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/sample-video-2.jpg">
+<source src="/videos/sample-video-2.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample short-form edit: 39-second clip with hook-first captions and retention pacing — the same style we apply to podcast-to-shorts clips. Footage: @iamvineshmaharaj.</p>
+</div>
+</div>
+
 ## Turnaround and pricing
 
 Standard turnaround is **48 hours per video**, with **24-hour rush available at +25%** when an episode drops and you want clips live the same week. Every clip includes one revision round.

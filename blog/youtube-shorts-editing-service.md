@@ -58,6 +58,19 @@ If you're a podcaster, our dedicated [podcast to shorts](/blog/podcast-to-shorts
 
 If you're running a faceless channel, shorts are also the fastest way to test niches and hooks before committing to long-form production — our [YouTube automation service](/blog/youtube-automation-service.html) uses the same editing pipeline.
 
+## Watch: YouTube Shorts editing sample
+
+Theory is cheap — here's the output. This YouTube Shorts edit shows the hook-first cutting, caption styling, and pacing our YouTube Shorts editing service delivers: the first second grabs, every second after earns the next.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/sample-video-3.jpg">
+<source src="/videos/sample-video-3.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: 44-second YouTube Short with hook-first captions, punch-in cuts, and retention pacing. Footage: @iamvineshmaharaj.</p>
+</div>
+</div>
+
 ## Pricing, plainly
 
 **$15 per finished short.** No packages required, no minimums — order one short to test the quality or a batch of thirty. Monthly packages (**$199–$999/mo**) make sense once you're publishing at volume. Every short includes one revision round and 48-hour turnaround. And the first one can be free: send us a raw clip and we'll return a finished sample edit, no commitment.

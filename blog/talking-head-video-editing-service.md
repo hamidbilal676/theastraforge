@@ -63,6 +63,19 @@ Monthly packages for consistent publishers: Starter **$199/mo** (15 shorts), Gro
 
 For an AI presenter that delivers your scripts without you recording at all, see [AI avatar videos](/ai-avatar-videos/). For the complete menu, browse our [AI video editing services](/ai-video-editing-services/) hub.
 
+## Watch: talking-head video editing sample
+
+Don't take our word for the pacing — watch it. This talking-head reel shows exactly what our talking-head video editing service does to raw footage: kinetic captions timed to the voice, punch-ins on emphasis, and retention cuts that keep viewers watching.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/sample-vinesh-liars-v4.jpg">
+<source src="/videos/sample-vinesh-liars-v4.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: 31-second talking-head reel with kinetic captions, punch-in pacing, and retention cuts. Footage: @iamvineshmaharaj.</p>
+</div>
+</div>
+
 ## How to start
 
 Send us a raw recording — a Drive or Dropbox link is enough. We'll return a **free sample edit** so you can see exactly what your footage looks like in our hands before you commit to anything. No credit card, no commitment.

@@ -46,6 +46,19 @@ Our dedicated [podcast-to-shorts editing service](/blog/podcast-to-shorts-editin
 
 **5. You review once, we revise, you publish.** One revision round is included on everything. Standard turnaround is **48 hours** per deliverable (24-hour rush available at +25%). Most clients settle into a rhythm: record on Monday, published episode plus clips back by Wednesday, clips dripping out all week.
 
+## Watch: the clip style your podcast gets
+
+Same editor, same treatment. This short-form edit shows the caption timing, hook framing, and retention pacing our video podcast editing service applies to every clip we cut from your episodes — built to hold attention even from viewers who've never heard of your show.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/sample-drive-video-1.jpg">
+<source src="/videos/sample-drive-video-1.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample short-form edit: 63-second clip with reply-style hook framing, kinetic captions, and retention pacing — the same style we cut from video podcast episodes. Footage: @iamvineshmaharaj.</p>
+</div>
+</div>
+
 ## Pricing
 
 Video podcast episodes vary in length, so we keep it simple and tied to finished output: **$15 per finished short-form clip**, and episode edits priced by finished length — our [talking-head rate](/talking-head-video-editing/) of **$30 per finished minute** applies to polished long-form edits. Monthly packages (**$199–$999/mo**) cover ongoing shows at a better effective rate. [TODO: real client result]
