@@ -83,6 +83,19 @@ Pricing varies, but here's the honest landscape in 2026:
 
 If you list 2–4 homes a month, the AI-edited route costs less than a single traditional shoot — and every listing gets video, not just the luxury ones. That's the real unlock: *video on every listing*, which is what actually moves your brand.
 
+## Watch: the selfie-walkthrough format
+
+Agents already film on their phones — this is the selfie walkthrough format, cleaned up and captioned by AI editing. Film the listing in 10 minutes; we return a reel that stops the scroll.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/sub3-video-1-new.jpg">
+<source src="/videos/sub3-video-1-new.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: selfie-format walkthrough with AI cleanup and captions — the same treatment we give agent-shot listing footage.</p>
+</div>
+</div>
+
 ## 5 Listing-Reel Formats That Get Inquiries
 
 Don't post the same video everywhere. Ask your editor for:

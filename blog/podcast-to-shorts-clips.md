@@ -54,6 +54,19 @@ Every viral podcast clip follows the same structure:
 
 Post 1–3 clips per day across TikTok, YouTube Shorts, and Instagram Reels. One episode = roughly 2–4 weeks of daily content. Batch the editing weekly so posting stays effortless.
 
+## Watch: the clip format, whatever the niche
+
+The niche changes; the format doesn’t. Hook in the first second, kinetic captions carrying the argument, one idea per clip. This is the exact clip anatomy the workflow above produces from any episode.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/sample-video-1.jpg">
+<source src="/videos/sample-video-1.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: hook-first captioned clip — the podcast-to-shorts format, applied here to a finance take.</p>
+</div>
+</div>
+
 ## DIY vs. Done-For-You
 
 Doing this yourself costs 6–10 hours per episode (selection, editing, captioning, posting). At that cost, most podcasters clip 3 videos and stop — which is why the workflow fails.

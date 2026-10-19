@@ -77,6 +77,19 @@ Avoid long lock-ins. The standard is monthly retainers you can pause or cancel �
 - **SaaS & startups** — demo videos, feature explainers, founder-led content
 - **Hospitality & restaurants** — mouth-watering short-form for Instagram and TikTok
 
+## Watch: a sample of our polish
+
+Whatever the niche, the edit is the product. This macro product shot shows the finish level Australian brands get — clean, premium, and built for the feed.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/skin-video.jpg">
+<source src="/videos/skin-video.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: premium product macro — representative of the polish our AI video editing delivers for Australian brands.</p>
+</div>
+</div>
+
 ## Getting Started: The Practical Checklist
 
 1. **Gather 2–3 raw clips** (phone footage is fine) or write a one-paragraph brief

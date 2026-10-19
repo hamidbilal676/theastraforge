@@ -74,6 +74,19 @@ The 90-minute monthly session produces more than social clips. A smart repurposi
 
 One filming session, five distribution channels, zero extra attorney time. This is what makes the ROI case undeniable — the content works across the entire client journey, not just social feeds.
 
+## Watch: the trust-building talking head
+
+Legal clients hire people they trust, and trust comes from a face speaking plainly to camera. This direct-to-camera style — captioned, human, unscripted-feeling — is the format that turns viewers into consults.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/serene-ad.jpg">
+<source src="/videos/serene-ad.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: direct-to-camera talking head with captioned delivery — the trust format law firms use to win consults.</p>
+</div>
+</div>
+
 ## Bar Compliance Notes (Read This)
 
 Legal marketing has rules, and video doesn't exempt you:

@@ -60,6 +60,19 @@ Product shipped v2.4 with a redesigned dashboard? Re-record the 3 affected scree
 
 Turnaround: first explainer in under a week; updates in 24–48 hours.
 
+## Watch: 3D demo-video craft
+
+Great demo videos show, not tell — cutaways, macro detail, and motion that explains the product faster than any voiceover. This 3D product demo shows the craft discipline we bring to SaaS walkthroughs and explainers.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/tool.jpg">
+<source src="/videos/tool.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: 3D product demo with explanatory cutaways — the demo-video craft behind our SaaS explainers.</p>
+</div>
+</div>
+
 ## What Good SaaS Video Looks Like in 2026
 
 Patterns from high-converting SaaS video:

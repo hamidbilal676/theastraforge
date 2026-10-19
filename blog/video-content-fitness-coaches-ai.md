@@ -68,6 +68,19 @@ AI handles production; these details decide performance:
 - **Progressive overload of content.** Vary formats across the week: tip Monday, transformation Wednesday, lifestyle Friday. The algorithm and audience both punish monotony.
 - **Your face in thumbnails.** Fitness is personal; faces outperform anonymous workout clips for follows.
 
+## Watch: animated fitness content
+
+Fitness content doesn’t have to be you in a gym. This animated fitness short — humor, character, shareability — is the kind of differentiated creative that cuts through a feed full of talking heads.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/baby-2.jpg">
+<source src="/videos/baby-2.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: animated fitness short — one of the six converting formats, produced without filming a single rep.</p>
+</div>
+</div>
+
 ## Turning Views Into Coaching Clients
 
 Content without conversion is just entertainment. Here's how coaches bridge the gap:

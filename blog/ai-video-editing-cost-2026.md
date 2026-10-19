@@ -60,6 +60,19 @@ An AI-native service delivers the same video for $30–$90 on retainer, in 48 ho
 
 In-house? $60,000–$90,000/year salary plus benefits, software, and management — before a single video ships.
 
+## Watch: what the top tier buys
+
+Pricing only makes sense against the work. This is a full 3D-animated ad — character animation, cinematic lighting, deliberate sound design — the top tier of the breakdown above. Most businesses never need this level; a sharp short-form edit costs a fraction of it.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/soap-4-ad.jpg">
+<source src="/videos/soap-4-ad.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: 3D-animated product ad — top-tier craft that anchors the high end of 2026 AI video pricing.</p>
+</div>
+</div>
+
 ## How to Avoid Overpaying
 
 1. **Start with a free sample edit.** Judge quality on your footage before spending anything.

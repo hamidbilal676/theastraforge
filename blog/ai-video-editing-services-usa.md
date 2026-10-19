@@ -73,6 +73,19 @@ Annual contracts are obsolete in this category. You should be able to start, pau
 
 Final files, project assets, captions files — all yours. No hostage licensing.
 
+## Watch: direct-response talking head
+
+US brands scale on direct-response creative — a strong hook, kinetic captions, and a clear ask. This reel shows the format: built for the feed, cut for conversion.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/talking-head-reel-decision-maker.jpg">
+<source src="/videos/talking-head-reel-decision-maker.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: direct-response talking-head reel with hook-first captions — the creative format US brands run at volume.</p>
+</div>
+</div>
+
 ## Red Flags Specific to the US Market
 
 - **"AI-powered" agencies with no human review.** Fully automated output shows in caption errors and dead pacing. Ask who reviews before delivery.

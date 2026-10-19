@@ -82,6 +82,19 @@ Four posts from one filming session. Multiply across 3–4 signature dishes and 
 
 Pro tip: keep a running "content dish" list. Whenever the chef experiments with something photogenic, film 60 seconds immediately. Your future self will thank you.
 
+## Watch: a restaurant promo in action
+
+This is the format that fills tables — a real presenter, a real venue, crave-worthy pacing, all cut from simple footage. If a phone clip from the floor can become this, imagine what your best dish looks like.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/food-489.jpg">
+<source src="/videos/food-489.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: restaurant presenter promo with crave-worthy pacing — the same AI edit we apply to restaurant phone footage.</p>
+</div>
+</div>
+
 ## Realistic Costs
 
 - **DIY (you edit):** free, but costs 5–10 hours/week you'll never get back — and quality caps your reach.

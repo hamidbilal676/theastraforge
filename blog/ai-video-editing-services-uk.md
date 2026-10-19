@@ -54,6 +54,19 @@ That last point matters more than it sounds. Caption style — "optimise" vs "op
 - **Restaurants & hospitality** — short-form that fills tables
 - **Professional services** — solicitors, accountants and clinics building trust on video
 
+## Watch: testimonial-style talking head
+
+Testimonial-style talking heads are the highest-trust format in short-form — and the cheapest to produce at volume with AI editing. This is the format UK brands use to turn customers into creative.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/motherhood-4.jpg">
+<source src="/videos/motherhood-4.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: testimonial-style talking head with captioned delivery — a staple format for UK brands.</p>
+</div>
+</div>
+
 ## Frequently Asked Questions
 
 ### How much do AI video editing services cost in the UK?

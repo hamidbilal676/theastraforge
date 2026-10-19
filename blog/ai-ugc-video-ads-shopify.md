@@ -83,6 +83,19 @@ Honest caveats, because not every AI UGC is good UGC:
 - **Scripts still matter most.** AI can't fix a bad angle. The best results come from pairing AI production with direct-response copywriting instincts.
 - **Keep human creative direction.** The winning formula is AI speed + human strategy: someone who understands your customer deciding *what* to make, AI handling *how fast*.
 
+## Watch: an AI UGC ad sample
+
+This is the UGC testimonial format that drives Shopify sales — shot like a real customer, cut like a performance creative. Our AI UGC pipeline produces these in batches so stores can test 20+ variants a week instead of betting on one hero ad.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/sub3-final.jpg">
+<source src="/videos/sub3-final.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: UGC-style testimonial ad with hook-first pacing — the same AI UGC format we ship for Shopify stores.</p>
+</div>
+</div>
+
 ## Realistic Costs in 2026
 
 - **DIY AI UGC tools:** $40–$100/month subscriptions; you do scripting, direction, and iteration yourself.

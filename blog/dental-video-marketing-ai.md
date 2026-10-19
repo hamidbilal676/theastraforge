@@ -86,6 +86,19 @@ You don't need a production day. Here's the 60-minute monthly shoot that feeds t
 
 Send it all as-is. The AI edit handles shaky bits, lighting inconsistencies, and awkward pauses. Practices are often shocked at how polished the result looks from such casual footage.
 
+## Watch: the testimonial format that fills chairs
+
+Patient testimonials are the highest-converting video a practice can run — real faces, real relief, thirty seconds. AI editing turns a shaky phone testimonial into this.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/ttrish-testimonial.jpg">
+<source src="/videos/ttrish-testimonial.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: testimonial-style short with captioned delivery — the patient-story format dental practices use to fill chairs.</p>
+</div>
+</div>
+
 ## Realistic Costs
 
 - **DIY:** free, but inconsistent, and one bad video can undo ten good impressions in healthcare.

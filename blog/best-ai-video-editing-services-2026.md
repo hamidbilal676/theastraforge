@@ -65,6 +65,19 @@ This is the single strongest signal. An agency confident in its work will edit *
 
 Ask: how do revisions work? The best services include 1–2 revision rounds per video with 24–48 hour turnaround on changes, and a shared workspace (Notion, Slack, or a client portal) where you can see what's in progress. If revisions are "unlimited" with no process, expect chaos. If there are zero revisions, expect disappointment.
 
+## Watch: the craft bar to judge by
+
+When you’re choosing a service, judge the craft, not the pitch deck. This luxury product piece — macro detail, cinematic grade, deliberate pacing — is the quality bar we hold every project to, and the bar you should hold every agency to.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/hermes-sample.jpg">
+<source src="/videos/hermes-sample.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: luxury product craft piece — use work like this as your benchmark when evaluating any AI video editing service.</p>
+</div>
+</div>
+
 ## Red Flags to Avoid
 
 - **No portfolio, or stock-footage showreels.** If every sample looks like template work, your videos will too.

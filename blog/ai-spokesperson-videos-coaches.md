@@ -76,6 +76,19 @@ Not sure where to start? Use this decision framework:
 
 Revisit the mix quarterly. Most coaches drift toward more real footage as they get comfortable — the avatar got them consistent, and consistency built the confidence.
 
+## Watch: an AI spokesperson sample
+
+This is an AI spokesperson in action — a consistent on-camera presence that never needs filming, reshoots, or scheduling. For coaches, this is the “AI Avatar You” path from the framework above: publish daily without ever stepping in front of a camera.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/ai-avatar-1.jpg">
+<source src="/videos/ai-avatar-1.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: AI spokesperson video with captioned delivery — the same avatar-video pipeline we build for coaches scaling content without filming.</p>
+</div>
+</div>
+
 ## Realistic Costs in 2026
 
 - **AI-edited talking-head shorts:** typically $25–$75 per finished short in volume packages; $50–$150 one-off.

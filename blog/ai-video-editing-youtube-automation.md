@@ -47,6 +47,19 @@ If you're running or launching an automation channel, here's the practical split
 
 Our [short-form video editing](/short-form-video-editing/) and [podcast-to-shorts](/podcast-to-shorts/) services cover the same retention-editing techniques that faceless long-form needs — many automation channels now cut every long video into 5–10 Shorts for a second traffic source.
 
+## Watch: fully faceless animated content
+
+This is what “faceless” can mean at full stretch — a complete animated video with no on-camera human at all. Automation channels run entire libraries on this production model: no filming, no scheduling, just output.
+
+<div class="sample-grid">
+<div class="sample-card">
+<video controls preload="metadata" poster="/videos/music-video-1.jpg">
+<source src="/videos/music-video-1.mp4" type="video/mp4">
+</video>
+<p class="sample-cap">Sample edit: fully animated faceless video — the same faceless production pipeline our YouTube automation service runs.</p>
+</div>
+</div>
+
 ## What It Costs in 2026
 
 Per-video pricing for faceless automation editing typically runs **$150–$500 per 8–12 minute video** depending on animation complexity. Monthly retainers for 8–12 videos/month usually land between **$999–$2,500** — compared to $4,000–$8,000 for a full-time traditional editor. See the full numbers in our [AI video editing cost breakdown](/blog/ai-video-editing-cost-2026.html).
