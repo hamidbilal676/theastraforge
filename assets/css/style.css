@@ -291,7 +291,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 /* Service page: stat band */
 .stat-band{display:flex;flex-wrap:wrap;gap:16px;margin:36px 0 10px}
 .stat-card{flex:none;width:calc(25% - 12px);background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px 20px;text-align:center;box-shadow:var(--sh)}
-.stat-card .n{font-size:40px;font-weight:800;line-height:1.05;color:var(--green)}
+.stat-card .n{font-size:clamp(25px,8.5vw,40px);font-weight:800;line-height:1.05;color:var(--green)}
 .stat-card .bar{height:4px;width:58px;margin:12px auto 0;background:var(--grad);border-radius:4px}
 .stat-card .l{color:var(--mut);font-size:13.5px;font-weight:600;margin-top:10px;line-height:1.5}
 
@@ -308,7 +308,8 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 .page-hero .sub{color:var(--mut);font-size:18.5px;max-width:720px;margin:18px auto 0;line-height:1.65}
 
 @media(max-width:900px){
-.stat-card{width:calc(50% - 8px)}
+.stat-card{padding:22px 12px;width:calc(50% - 8px)}
+.stat-card .n{font-size:clamp(24px,7.2vw,34px);letter-spacing:-.5px}
 .proof-card{width:100%}
 }
 
