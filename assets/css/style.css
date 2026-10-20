@@ -382,3 +382,5 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 .drop-menu::before{display:none}
 .drop-menu a{padding:7px 8px}
 }
+.hero-visual video{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 30%;display:block;background:#0c0c0c}
+.hero-visual.hv916 video{aspect-ratio:9/16;max-height:576px;object-fit:cover;object-position:center}

@@ -180,3 +180,10 @@ function initHero3D(){
     els.forEach(function(el){io.observe(el);});
   }else{els.forEach(run);}
 })();
+
+/* Video download protection: no download button, no PiP, no right-click save */
+document.querySelectorAll("video").forEach(function (v) {
+  try { v.controlsList.add("nodownload"); } catch (e) {}
+  v.disablePictureInPicture = true;
+  v.addEventListener("contextmenu", function (e) { e.preventDefault(); });
+});
