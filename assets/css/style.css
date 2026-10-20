@@ -320,14 +320,19 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 
 /* Service page: hero visual frame */
 .hero-visual{margin:6px 0 10px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh)}
-.hero-visual .hv-bar{display:flex;gap:7px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--card2)}
+.hv-wrap{position:relative}
+.hv-wrap.portrait{max-width:320px;margin-left:auto;margin-right:auto}
+.hv-wrap.portrait .hv-bar{padding-right:16px}
+.hv-wrap.portrait .hv-chip.c1{top:56px;right:-16px}
+.hero-visual.hv916 img{aspect-ratio:9/16;max-height:576px;object-fit:cover;object-position:center}
+.hero-visual .hv-bar{display:flex;gap:7px;align-items:center;padding:12px 150px 12px 16px;border-bottom:1px solid var(--line);background:var(--card2)}
 .hero-visual .hv-bar i{width:11px;height:11px;border-radius:50%;background:var(--line);display:block}
 .hero-visual .hv-bar i:first-child{background:#f87171}
 .hero-visual .hv-bar i:nth-child(2){background:#fbbf24}
 .hero-visual .hv-bar i:nth-child(3){background:#22c55e}
 .hero-visual .hv-bar em{font-style:normal;margin-left:10px;font-size:12.5px;color:var(--mut);font-weight:600}
-.hero-visual img{width:100%;height:auto;display:block}
-.hero-visual .hv-cap{padding:14px 20px;border-top:1px solid var(--line);font-size:13.5px;color:var(--mut);text-align:center}
+.hero-visual img{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 30%;display:block}
+.hero-visual .hv-cap{padding:14px 20px 46px;border-top:1px solid var(--line);font-size:13.5px;color:var(--mut);text-align:center}
 
 /* Service page: feature cards */
 .feature-grid{display:flex;flex-wrap:wrap;gap:18px;margin:28px 0 10px}
@@ -353,7 +358,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 .hv-chip{position:absolute;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--sh);padding:10px 16px;font-size:13px;font-weight:700;color:var(--ink);z-index:3}
 .hv-chip b{display:block;font-size:19px;color:var(--green);line-height:1.15}
 .hv-chip.c1{top:-20px;right:14px}
-.hv-chip.c2{bottom:-20px;left:14px}
+.hv-chip.c2{bottom:-32px;left:14px}
 
 @media(max-width:900px){
 .rich-hero .wrap{flex-direction:column;gap:40px}
