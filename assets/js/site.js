@@ -143,3 +143,40 @@ function initHero3D(){
     window.addEventListener('load',function(){setTimeout(load,2000);});
   }
 })();
+
+/* Count-up animation for stat cards (service pages) */
+(function(){
+  var els=document.querySelectorAll('.stat-card .n[data-count]');
+  if(!els.length)return;
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function fmt(el,v){
+    var dec=parseInt(el.getAttribute('data-dec')||'0',10);
+    var pre=el.getAttribute('data-pre')||'',suf=el.getAttribute('data-suf')||'';
+    var s=v.toFixed(dec);
+    if(el.hasAttribute('data-comma')){
+      var parts=s.split('.');
+      parts[0]=parts[0].replace(/\B(?=(\d{3})+(?!\d))/g,',');
+      s=parts.join('.');
+    }
+    return pre+s+suf;
+  }
+  function run(el){
+    var target=parseFloat(el.getAttribute('data-count'));
+    if(reduce||isNaN(target)){if(!isNaN(target))el.textContent=fmt(el,target);return;}
+    var t0=null,dur=1700;
+    function step(ts){
+      if(!t0)t0=ts;
+      var p=Math.min((ts-t0)/dur,1);
+      var e=1-Math.pow(1-p,3);
+      el.textContent=fmt(el,target*e);
+      if(p<1)requestAnimationFrame(step);else el.textContent=fmt(el,target);
+    }
+    requestAnimationFrame(step);
+  }
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(en){if(en.isIntersecting){run(en.target);io.unobserve(en.target);}});
+    },{threshold:0.35});
+    els.forEach(function(el){io.observe(el);});
+  }else{els.forEach(run);}
+})();
