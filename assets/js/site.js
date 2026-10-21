@@ -213,3 +213,28 @@ document.querySelectorAll("video").forEach(function (v) {
     pop.hidden=false;
   },6000);
 })();
+
+/* ---------- CEO page: animated counters on scroll ---------- */
+(function(){
+  var els=document.querySelectorAll('.ceo-count');
+  if(!els.length)return;
+  function run(el){
+    var target=parseInt(el.getAttribute('data-count'),10)||0;
+    var suf=el.getAttribute('data-suffix')||'';
+    var dur=1400,t0=null;
+    function step(ts){
+      if(!t0)t0=ts;
+      var p=Math.min((ts-t0)/dur,1);
+      var eased=1-Math.pow(1-p,3);
+      el.textContent=Math.round(target*eased)+suf;
+      if(p<1)requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){if(en.isIntersecting){run(en.target);io.unobserve(en.target);}});
+    },{threshold:.4});
+    els.forEach(function(el){io.observe(el);});
+  }
+})();
