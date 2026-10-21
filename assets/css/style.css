@@ -627,3 +627,31 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 .coo-cta b{font-size:18px;display:block}
 .coo-cta span{color:var(--mut);font-size:14.5px}
 @media(max-width:900px){.coo-hero-grid{grid-template-columns:1fr}.coo-facts{grid-template-columns:1fr 1fr}.coo-cols{grid-template-columns:1fr}.coo-photo-side{max-width:270px}.coo-badge-t{left:-6px}.coo-badge-b{right:-6px}}
+
+/* ---------- CEO stats + marquee v2 (Oct 21) ---------- */
+.ceo-stats{gap:18px}
+.ceo-stat{position:relative;padding:26px 24px 24px;border-radius:18px;background:linear-gradient(165deg,var(--card),rgba(46,204,113,.07));overflow:hidden}
+.ceo-stat::after{content:"";position:absolute;right:-25%;bottom:-65%;width:75%;height:95%;background:radial-gradient(closest-side,rgba(46,204,113,.22),transparent);pointer-events:none}
+.ceo-stat::before{content:"";display:block;width:42px;height:42px;border-radius:12px;background-color:rgba(46,204,113,.13);background-position:center;background-size:22px;background-repeat:no-repeat;margin-bottom:14px;position:relative;z-index:1}
+.ceo-stat:nth-child(1)::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232ecc71' stroke-width='2' stroke-linecap='round'%3E%3Crect x='3' y='5' width='18' height='16' rx='2'/%3E%3Cpath d='M3 10h18M8 3v4M16 3v4'/%3E%3C/svg%3E")}
+.ceo-stat:nth-child(2)::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232ecc71' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M10 8.5l6 3.5-6 3.5z' fill='%232ecc71' stroke='none'/%3E%3C/svg%3E")}
+.ceo-stat:nth-child(3)::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232ecc71' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z'/%3E%3C/svg%3E")}
+.ceo-stat:nth-child(4)::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232ecc71' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12z'/%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3C/svg%3E")}
+.ceo-stat b{font-size:43px;font-weight:900;letter-spacing:-.5px;line-height:1.05;position:relative;z-index:1;background:linear-gradient(92deg,var(--ink) 25%,var(--green) 95%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.ceo-stat>span{font-size:11px;font-weight:800;letter-spacing:1.1px;text-transform:uppercase;position:relative;z-index:1;white-space:nowrap}
+.ceo-stat .ceo-count{font-size:43px;line-height:1.05}
+.ceo-marquee-label{display:flex;align-items:center;justify-content:center;gap:16px;color:var(--green);letter-spacing:3px}
+.ceo-marquee-label::before,.ceo-marquee-label::after{content:"";height:1px;width:min(170px,20vw)}
+.ceo-marquee-label::before{background:linear-gradient(90deg,transparent,var(--green-b))}
+.ceo-marquee-label::after{background:linear-gradient(90deg,var(--green-b),transparent)}
+.ceo-marquee{padding:20px 0;background:linear-gradient(90deg,transparent,rgba(46,204,113,.05),transparent)}
+.ceo-mitem{font-size:19.5px;color:var(--ink);letter-spacing:.2px}
+.ceo-mitem i{font-size:14px}
+.ceo-plate{display:inline-flex;align-items:center;gap:9px;background:#fff;border-radius:12px;padding:10px 16px;color:#14231a;font-weight:800;font-size:15.5px;line-height:1;box-shadow:0 4px 14px rgba(10,25,15,.18);white-space:nowrap}
+.ceo-plate img{height:28px;width:auto;display:block}
+.ceo-plate img.ceo-mark{height:30px;border-radius:7px}
+.ceo-plate-dark{background:#050505;padding:5px 14px}
+.ceo-plate-dark img{height:40px}
+.ceo-mitem{color:var(--ink)}
+.ceo-plate-nf{background:#0C2233;color:#fff;letter-spacing:1.2px;font-size:14px;border:1px solid rgba(201,162,39,.55);box-shadow:inset 0 -3px 0 #C9A227,0 4px 14px rgba(10,25,15,.18)}
+.ceo-plate-os{color:#d6006d;font-size:16.5px}
