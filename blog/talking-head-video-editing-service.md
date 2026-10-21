@@ -53,7 +53,6 @@ One polished video is nice. A publishing rhythm is what grows an audience. Our w
 
 Coaches, consultants, course creators, and educators — anyone whose content has to look as credible as their advice — pair this with our [podcast to shorts](/podcast-to-shorts/) service to turn the same recordings into short-form distribution. Long video builds authority; clips build reach.
 
-[TODO: real client result]
 
 ## Pricing and turnaround
 
@@ -61,7 +60,7 @@ Coaches, consultants, course creators, and educators — anyone whose content ha
 
 Monthly packages for consistent publishers: Starter **$199/mo** (15 shorts), Growth **$499/mo** (30 shorts + 5 min talking-head), Brand **$999/mo** (50 shorts + 10 min talking-head + 5 min AI avatar). Pause or cancel anytime — built for real publishing schedules, not lock-in. See [pricing](/#pricing) for the full breakdown.
 
-For an AI presenter that delivers your scripts without you recording at all, see [AI avatar videos](/ai-avatar-videos/). For the complete menu, browse our [AI video editing services](/ai-video-editing-services/) hub.
+For an AI presenter that delivers your scripts without you recording at all, see [AI avatar videos](/ai-avatar-videos/). For the complete menu, browse our [AI video editing services](/#services) hub.
 
 ## Watch: talking-head video editing sample
 

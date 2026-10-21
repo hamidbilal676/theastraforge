@@ -43,7 +43,6 @@ No service can promise virality — anyone who does is selling you something. Bu
 - **Visual energy.** Static waveforms don't hold attention. We add punch-in zooms, speaker framing changes, and b-roll or kinetic text on key phrases. If you record video (even a webcam), we use it — clips with faces outperform audio-only every time.
 - **Length discipline.** 21–34 seconds is the sweet spot for most podcast clips. Long enough for one idea, short enough to loop. Loops are free replays, and replays are what the algorithm reads as "show this to more people."
 
-[TODO: real client result]
 
 ## What to send us
 

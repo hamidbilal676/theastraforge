@@ -61,7 +61,7 @@ Same editor, same treatment. This short-form edit shows the caption timing, hook
 
 ## Pricing
 
-Video podcast episodes vary in length, so we keep it simple and tied to finished output: **$15 per finished short-form clip**, and episode edits priced by finished length — our [talking-head rate](/talking-head-video-editing/) of **$30 per finished minute** applies to polished long-form edits. Monthly packages (**$199–$999/mo**) cover ongoing shows at a better effective rate. [TODO: real client result]
+Video podcast episodes vary in length, so we keep it simple and tied to finished output: **$15 per finished short-form clip**, and episode edits priced by finished length — our [talking-head rate](/talking-head-video-editing/) of **$30 per finished minute** applies to polished long-form edits. Monthly packages (**$199–$999/mo**) cover ongoing shows at a better effective rate.
 
 As always: start with a **free sample edit** of your own footage. Send one episode (or even one segment) and we'll return a finished cut within 48 hours — then decide.
 
@@ -69,6 +69,6 @@ As always: start with a **free sample edit** of your own footage. Send one episo
 
 **Interview podcasts** with remote or in-studio guests — multicam switching makes conversations feel dynamic instead of flat. **Solo shows** where you talk to camera — our [talking-head pipeline](/talking-head-video-editing/) plus the clip workflow turns one recording session into a full content library. **Brands running podcasts as marketing** — consistent, professional episodes that actually get clipped and distributed instead of dying in the feed. A podcast nobody clips is a podcast nobody discovers.
 
-We're [The Astra Forge](/ai-video-editing-services/), an AI video editing studio founded in February 2026. Video podcasts are one of our core workflows — the same team that edits your episode cuts your clips, so the style stays consistent everywhere your content appears, from YouTube to TikTok.
+We're [The Astra Forge](/#services), an AI video editing studio founded in February 2026. Video podcasts are one of our core workflows — the same team that edits your episode cuts your clips, so the style stays consistent everywhere your content appears, from YouTube to TikTok.
 
 **Your next episode could be working ten times harder for you.** [Send us a raw recording and get a free sample edit](/#lead-form) — episode cut plus a sample clip, back within 48 hours, no commitment. If the quality speaks for itself, we'll talk about your show.

@@ -75,6 +75,6 @@ Theory is cheap — here's the output. This YouTube Shorts edit shows the hook-f
 
 **$15 per finished short.** No packages required, no minimums — order one short to test the quality or a batch of thirty. Monthly packages (**$199–$999/mo**) make sense once you're publishing at volume. Every short includes one revision round and 48-hour turnaround. And the first one can be free: send us a raw clip and we'll return a finished sample edit, no commitment.
 
-We're [The Astra Forge](/ai-video-editing-services/) — an AI video editing studio founded in February 2026, built specifically for creators and brands that need content at scale. [TODO: real client result]
+We're [The Astra Forge](/#services) — an AI video editing studio founded in February 2026, built specifically for creators and brands that need content at scale.
 
 **Stop letting the algorithm ignore good content.** [Get a free sample short edit](/#lead-form) — send one raw clip, get a finished short back within 48 hours. If it doesn't outperform what you're posting now, you've lost nothing.

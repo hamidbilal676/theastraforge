@@ -56,7 +56,6 @@ What AI UGC is for is the other 90% of creative testing: hook variations, angle 
 
 Most smart DTC brands run a hybrid: real creators for a handful of hero assets, AI UGC for the testing volume around them. If you need product-focused creative alongside UGC, see our [product video animation](/product-video-animation/) work, and for organic reach between ad pushes, [short-form video editing](/short-form-video-editing/) keeps your feed active.
 
-[TODO: real client result]
 
 ## Watch: an AI UGC ad sample
 
@@ -77,7 +76,7 @@ This is what an AI UGC-style product ad looks like in our hands — product-forw
 
 Monthly packages for brands testing at volume: Starter **$199/mo** (15 shorts), Growth **$499/mo** (30 shorts + 5 min talking-head), Brand **$999/mo** (50 shorts + 10 min talking-head + 5 min AI avatar). Pause or cancel anytime. Full details on our [pricing](/#pricing) section.
 
-For the full picture of everything we produce, browse our [AI video editing services](/ai-video-editing-services/) hub.
+For the full picture of everything we produce, browse our [AI video editing services](/#services) hub.
 
 ## How to start
 

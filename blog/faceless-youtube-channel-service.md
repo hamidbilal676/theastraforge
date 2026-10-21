@@ -59,7 +59,7 @@ Here's what nobody can promise: views, subscribers, or revenue. YouTube's algori
 
 Pricing starts at **$15 per short-form video**, with long-form faceless videos quoted by finished minute — our [talking-head video editing](/talking-head-video-editing/) rate of **$30 per finished minute** is the reference point, and most 8–10 minute faceless videos land in that structure. Monthly packages (**$199/$499/$999**) are built for channels publishing at volume — see [pricing](/#pricing).
 
-If your channel also needs short-form distribution, our [short-form video editing](/short-form-video-editing/) service cuts your long videos into Reels, TikToks, and Shorts that funnel viewers back to the channel. And for a broader view of what's possible, see our [AI video editing services](/ai-video-editing-services/) hub.
+If your channel also needs short-form distribution, our [short-form video editing](/short-form-video-editing/) service cuts your long videos into Reels, TikToks, and Shorts that funnel viewers back to the channel. And for a broader view of what's possible, see our [AI video editing services](/#services) hub.
 
 ## Watch: a faceless-style edit sample
 

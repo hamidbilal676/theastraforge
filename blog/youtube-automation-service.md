@@ -14,7 +14,7 @@ YouTube automation is one of those phrases that gets thrown around like it means
 
 That's the entire idea: a content business with the labor delegated.
 
-Our [YouTube automation service](/ai-video-editing-services/) does exactly that. If you want a faceless channel that publishes consistently without you touching an editing timeline, keep reading — this is what automation actually covers, what it honestly can and can't do, and how to pick a provider who won't waste your money.
+Our [YouTube automation service](/youtube-automation-service/) does exactly that. If you want a faceless channel that publishes consistently without you touching an editing timeline, keep reading — this is what automation actually covers, what it honestly can and can't do, and how to pick a provider who won't waste your money.
 
 ## What YouTube automation actually covers
 
@@ -38,7 +38,7 @@ Let's be honest about what automation can and can't promise, because this indust
 
 **What it can do:** publish professional videos consistently, at a volume and pace you could never maintain yourself. Build a library that compounds — every video is an asset that can earn views for years. Free up your time entirely from production.
 
-**What it can't do:** guarantee virality, income, or a timeline. Anyone who promises "10,000 subscribers in 90 days" is selling a fantasy. YouTube is an auction for attention; nobody controls the outcome, only the quality and consistency of the entries. [TODO: real client result]
+**What it can't do:** guarantee virality, income, or a timeline. Anyone who promises "10,000 subscribers in 90 days" is selling a fantasy. YouTube is an auction for attention; nobody controls the outcome, only the quality and consistency of the entries.
 
 A realistic engagement: 2–4 videos per week, quality improving as the team learns what the audience responds to, growth compounding slowly — then sometimes all at once. The channels that win survive long enough for compounding to kick in. Automation's real job is making survival affordable.
 
@@ -58,7 +58,7 @@ If you're shopping for a [done-for-you faceless YouTube channel](/blog/faceless-
 
 ## What our automation service includes
 
-Here's our setup, plainly stated. We're [The Astra Forge](/ai-video-editing-services/), an AI video editing studio (founded February 2026) that runs done-for-you faceless channels end to end:
+Here's our setup, plainly stated. We're [The Astra Forge](/#services), an AI video editing studio (founded February 2026) that runs done-for-you faceless channels end to end:
 
 - **Niche research and channel positioning** before production starts
 - **Scripts** written for retention, with human review on every draft

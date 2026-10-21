@@ -38,7 +38,7 @@ h2{font-size:clamp(30px,4vw,46px);margin-bottom:16px}
 .btn-ghost:hover{border-color:var(--green-b);box-shadow:none}
 /* ---------- header ---------- */
 header{position:sticky;top:0;z-index:100;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-nav{display:flex;align-items:center;justify-content:space-between;height:74px;gap:16px}
+header nav{display:flex;align-items:center;justify-content:space-between;height:74px;gap:16px}
 .logo{display:flex;align-items:center;font-weight:800;font-size:16px;letter-spacing:1.5px}
 .logo img{height:40px;width:40px;object-fit:cover;border-radius:10px;margin-right:11px}
 .logo span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -116,10 +116,10 @@ nav{display:flex;align-items:center;justify-content:space-between;height:74px;ga
 .orbit .sat{position:absolute;top:-7px;left:50%;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:var(--green-b)}
 .morph{width:120px;height:120px;background:var(--grad);animation:morph 6s ease-in-out infinite}
 @keyframes morph{0%,100%{border-radius:60% 40% 55% 45%/55% 60% 40% 45%}50%{border-radius:40% 60% 45% 55%/60% 40% 55% 45%;transform:rotate(24deg) scale(1.06)}}
-.marquee{overflow:hidden;padding:26px 0;background:var(--green-ink);border-radius:var(--r);margin-top:48px}
+.marquee{overflow:hidden;padding:12px 0;background:var(--green-ink);border-radius:var(--r);margin-top:24px}
 [data-theme="dark"] .marquee{background:#0a0f0a;border:1px solid var(--line)}
 .mq-track{display:flex;width:max-content;animation:mq 26s linear infinite}
-.mq-track span{color:#fff;font-weight:800;letter-spacing:2px;font-size:15px;white-space:nowrap;padding-right:14px}
+.mq-track span{color:#fff;font-weight:800;letter-spacing:1.5px;font-size:12.5px;white-space:nowrap;padding-right:14px}
 [data-theme="dark"] .mq-track span{color:var(--green-l)}
 @keyframes mq{to{transform:translateX(-50%)}}
 /* ---------- pricing ---------- */
@@ -231,7 +231,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 .article{max-width:800px;margin:0 auto}
 .article h1{font-size:clamp(32px,4.4vw,50px);margin:14px 0 16px}
 .article .meta{color:var(--mut);font-size:14px;margin-bottom:34px;display:flex;gap:18px;flex-wrap:wrap}
-.toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 24px;margin:26px 0;max-width:720px}
+.toc{display:block;height:auto;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 24px;margin:26px 0;max-width:720px}
 .toc b{display:block;margin-bottom:10px;font-size:15px}
 .toc ul{margin:0;padding-left:20px}
 .toc li{margin:6px 0;font-size:14.5px}

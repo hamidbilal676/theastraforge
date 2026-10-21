@@ -84,7 +84,7 @@ Ideas are cheap; the niche only works if the *format* works. Before committing, 
 
 The YouTube Partner Program pays per thousand monetized views, and rates differ by niche, geography, and season — finance and software pay far more than pranks and vlogs. But smart faceless channels don't rely on ads alone. A channel teaching a skill can sell a course; a channel reviewing tools earns affiliate commissions; a channel with a loyal audience attracts sponsors. Build the audience first, stack revenue streams second.
 
-One honest note: nobody can promise you income from a channel, and anyone who does is selling something. [TODO: real client result] What a good channel *can* give you is a compounding asset — every video keeps working while you sleep.
+One honest note: nobody can promise you income from a channel, and anyone who does is selling something. What a good channel *can* give you is a compounding asset — every video keeps working while you sleep.
 
 ## Watch: a faceless niche brought to life
 
@@ -103,6 +103,6 @@ Take the health and wellness niche from the list above — here's what a faceles
 
 Here's the part most idea lists skip: every niche above needs consistent, professional production to win. Scripts, voiceover, editing, thumbnails, uploads — week after week. That's exactly what our [YouTube automation service](/blog/youtube-automation-service.html) handles: done-for-you faceless channels from niche research to published video.
 
-We're [The Astra Forge](/ai-video-editing-services/) (founded February 2026). **$15 per finished short-form video**, **$199–$999/month** channel packages, **48-hour turnaround** per video (24-hour rush at +25%), one revision round included — and a **free sample video** in your niche before you commit to anything.
+We're [The Astra Forge](/#services) (founded February 2026). **$15 per finished short-form video**, **$199–$999/month** channel packages, **48-hour turnaround** per video (24-hour rush at +25%), one revision round included — and a **free sample video** in your niche before you commit to anything.
 
 **Pick your niche, then see it produced.** [Get a free sample video in your niche](/#lead-form) — no commitment, no credit card. If the quality speaks for itself, we'll talk about building the channel.
