@@ -118,6 +118,14 @@ function initHero3D(){
     fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
       .then(function(r){if(!r.ok)throw new Error('submit failed');return r.json();})
       .then(function(){
+        var wa=document.getElementById('lf-wa-btn');
+        if(wa){
+          var fd=new FormData(form);
+          var nm=(''+(fd.get('name')||'')).trim();
+          var sv=(''+(fd.get('service')||'')).trim();
+          var msg='Hi The Astra Forge! I just submitted a request on your website'+(nm?' — my name is '+nm:'')+(sv?' ('+sv+')':'')+'. Please confirm my request.';
+          wa.href='https://wa.me/923101622005?text='+encodeURIComponent(msg);
+        }
         form.hidden=true;
         if(ok){ok.hidden=false;ok.scrollIntoView({behavior:'smooth',block:'center'});}
       })

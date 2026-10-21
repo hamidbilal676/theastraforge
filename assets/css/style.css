@@ -524,3 +524,8 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 @keyframes ceoScroll{from{transform:translateX(-50%)}to{transform:translateX(0)}}
 @media(max-width:900px){.ceo-hero{grid-template-columns:1fr}.ceo-photo-side{max-width:290px}}
 @media (prefers-reduced-motion: reduce){.ceo-marquee-track{animation:none}.ceo-photo-arch img{transition:none}}
+
+/* ---------- Lead form success: WhatsApp confirm (Oct 21) ---------- */
+.form-success-wa{margin-top:14px}
+.btn-wa{background:#25d366;color:#fff;margin-top:16px;box-shadow:0 10px 24px rgba(37,211,102,.35)}
+.btn-wa:hover{background:#1eb856;color:#fff}
