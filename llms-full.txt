@@ -10,6 +10,7 @@
 - Base: Pakistan — working across all US time zones
 - Founded: February 2026
 - About: https://theastraforge.com/about.html
+- Portfolio: https://theastraforge.com/portfolio.html — 23 real client videos (talking-head, AI UGC ads, AI avatars, short-form) that stream on the page.
 - Reviews: https://www.trustpilot.com/review/theastraforge.com (claimed profile)
 
 ## Services (all with dedicated pages)
