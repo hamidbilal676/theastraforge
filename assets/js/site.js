@@ -187,3 +187,29 @@ document.querySelectorAll("video").forEach(function (v) {
   v.disablePictureInPicture = true;
   v.addEventListener("contextmenu", function (e) { e.preventDefault(); });
 });
+
+/* ---------- 50% offer popup: once per visitor, after a few seconds ---------- */
+(function(){
+  var pop=document.getElementById('offerPop');
+  if(!pop)return;
+  var KEY='af-offer-seen';
+  try{if(localStorage.getItem(KEY))return;}catch(e){}
+  function seen(){try{localStorage.setItem(KEY,'1');}catch(e){}}
+  function close(){pop.hidden=true;seen();}
+  document.getElementById('popClose').addEventListener('click',close);
+  document.getElementById('popNo').addEventListener('click',close);
+  pop.addEventListener('click',function(ev){if(ev.target===pop)close();});
+  document.addEventListener('keydown',function(ev){if(ev.key==='Escape'&&!pop.hidden)close();});
+  var claim=document.getElementById('popClaim');
+  if(claim)claim.addEventListener('click',function(ev){
+    seen();
+    var f=document.getElementById('lead-form');
+    if(f){ev.preventDefault();pop.hidden=true;f.scrollIntoView({behavior:'smooth'});}
+  });
+  setTimeout(function(){
+    if(window.location.hash.indexOf('lead-form')===1)return;
+    var f=document.getElementById('lead-form');
+    if(f){var r=f.getBoundingClientRect();if(r.top<window.innerHeight&&r.bottom>0)return;}
+    pop.hidden=false;
+  },6000);
+})();
