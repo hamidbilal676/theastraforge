@@ -124,7 +124,7 @@ Thirty days from now, you'll have the most consistent video presence in your mar
 The best ones in 2026 are remarkably realistic — natural lip-sync, micro-expressions, and gestures. In short-form especially, most viewers don't notice. That said, for deep trust-building content, real talking-head footage (AI-edited) still wins. Smart coaches use both.
 
 ### How long does it take to get my videos back?
-Standard turnaround is 48–72 hours for batches of shorts; AI avatar videos can deliver in 24 hours. Rush options exist for launches.
+Standard turnaround is 5 hours for batches of shorts; AI avatar videos can deliver in 5 hours.
 
 ### What do I need to send to get started?
 Raw footage (phone is fine) or just a script for avatar videos. A 5-minute style call covers your branding, caption style, and tone — then you're set.

@@ -53,7 +53,7 @@ Every video goes through the same five-stage production line:
 
 ## Realistic expectations
 
-Here's what we can promise: consistent, professional videos delivered on schedule, with scripts you approve and a production quality that stands next to established channels in your niche. Standard turnaround is **48 hours per video**, with **24-hour rush at +25%**.
+Here's what we can promise: consistent, professional videos delivered on schedule, with scripts you approve and a production quality that stands next to established channels in your niche. Standard turnaround is **5 hours per video**.
 
 Here's what nobody can promise: views, subscribers, or revenue. YouTube's algorithm, your niche's competition, and your publishing consistency decide that. What the data-free version of the truth looks like: channels that publish 2–3 quality videos a week for 6–12 months give themselves a real chance; channels that publish sporadically don't. Our job is to make the "quality videos a week" part effortless for you.
 

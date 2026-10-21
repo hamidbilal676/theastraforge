@@ -3,8 +3,8 @@ title: "Talking-Head Video Editing Service: Look Like the Authority You Are"
 slug: "talking-head-video-editing-service"
 date: "2026-10-18"
 keywords: "talking head video editing service, talking head editing service, video editing for coaches, youtube talking head editing"
-meta_title: "Talking-Head Video Editing Service — $30/Min, 48h | The Astra Forge"
-meta_description: "Our talking-head video editing service delivers polished, captioned, retention-cut videos — $30 per finished minute, 48h turnaround. Free sample edit."
+meta_title: "Talking-Head Video Editing Service — $30/Min, 5h | The Astra Forge"
+meta_description: "Our talking-head video editing service delivers polished, captioned, retention-cut videos — $30 per finished minute, 5h turnaround. Free sample edit."
 category: "services"
 ---
 
@@ -12,7 +12,7 @@ category: "services"
 
 You know your stuff. Your clients tell you so, your results prove it, and your ideas deserve an audience. But there's a gap between recording a video and publishing one worth watching — the ums, the dead air, the flat framing, the hour of editing for every ten minutes of footage. So the video sits on your hard drive, and your expertise stays invisible.
 
-Our [talking-head video editing](/talking-head-video-editing/) service closes that gap. You record on whatever you have — phone, webcam, Zoom, it doesn't matter — and we return polished, captioned, retention-engineered videos in 48 hours. Your expertise is the product; our edit is the packaging.
+Our [talking-head video editing](/talking-head-video-editing/) service closes that gap. You record on whatever you have — phone, webcam, Zoom, it doesn't matter — and we return polished, captioned, retention-engineered videos in 5 hours. Your expertise is the product; our edit is the packaging.
 
 ## Why raw talking-head loses viewers
 
@@ -49,14 +49,14 @@ What all four share: the recording is the easy part, and the editing is what nev
 
 ## Built for volume, not one-offs
 
-One polished video is nice. A publishing rhythm is what grows an audience. Our workflow is built for batch: send a week's recordings at once, get them back on a rolling 48-hour-per-video turnaround, and keep your content calendar full without touching editing software.
+One polished video is nice. A publishing rhythm is what grows an audience. Our workflow is built for batch: send a week's recordings at once, get them back on a rolling 5-hour-per-video turnaround, and keep your content calendar full without touching editing software.
 
 Coaches, consultants, course creators, and educators — anyone whose content has to look as credible as their advice — pair this with our [podcast to shorts](/podcast-to-shorts/) service to turn the same recordings into short-form distribution. Long video builds authority; clips build reach.
 
 
 ## Pricing and turnaround
 
-**$30 per finished minute.** A 10-minute video costs $300 — whether your raw footage was 12 minutes or 40. No hourly billing, no surprise invoices. Every video includes one revision round and a **48-hour turnaround**, with **24-hour rush at +25%** when a launch can't wait.
+**$30 per finished minute.** A 10-minute video costs $300 — whether your raw footage was 12 minutes or 40. No hourly billing, no surprise invoices. Every video includes one revision round and a **5-hour turnaround**.
 
 Monthly packages for consistent publishers: Starter **$199/mo** (15 shorts), Growth **$499/mo** (30 shorts + 5 min talking-head), Brand **$999/mo** (50 shorts + 10 min talking-head + 5 min AI avatar). Pause or cancel anytime — built for real publishing schedules, not lock-in. See [pricing](/#pricing) for the full breakdown.
 

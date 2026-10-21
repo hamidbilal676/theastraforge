@@ -12,7 +12,7 @@ category: "guides"
 
 British brands face the same content treadmill as everyone else — TikTok, Reels and Shorts reward daily posting — but with London production rates among Europe's highest. A single shoot day with a videographer runs £800–£2,000 before a frame is edited. For businesses that need 15–30 videos a month, traditional production simply doesn't scale.
 
-AI video editing services offer a different model: done-for-you video, delivered in 48 hours, priced for volume. This guide covers what UK brands need to know.
+AI video editing services offer a different model: done-for-you video, delivered in 5 hours, priced for volume. This guide covers what UK brands need to know.
 
 ## GBP Pricing Benchmarks (2026)
 
@@ -38,8 +38,8 @@ The full done-for-you pipeline:
 
 1. **Portfolio in your format** — watch 5+ samples; judge caption quality and pacing, not just visuals
 2. **Free sample edit** — of your footage, before you pay anything
-3. **48-hour SLA** — in writing, with a make-good policy for misses
-4. **Revisions** — 1–2 rounds per video, 24–48h turnaround
+3. **5-hour SLA** — in writing, with a make-good policy for misses
+4. **Revisions** — 1–2 rounds per video, 5h turnaround
 5. **Month-to-month** — no annual lock-ins
 6. **British English captions** — spellings, phrasing and tone matched to UK audiences (ask specifically)
 
@@ -79,7 +79,7 @@ No. Phone-shot raw footage works; AI avatars and 3D animation cover zero-filming
 
 ### How fast is delivery?
 
-48 hours standard, 24-hour rush available — with time-zone overlap working in your favour for overnight delivery.
+5 hours standard — with time-zone overlap working in your favour for overnight delivery.
 
 ### Will captions use British English?
 
@@ -91,4 +91,4 @@ Yes — month-to-month with no lock-in is the standard. Pause or cancel anytime.
 
 ---
 
-*The Astra Forge is a global AI video editing agency serving clients in the UK, USA, Europe, Canada and Australia — AI UGC ads, talking-head editing, AI avatars and short-form video with 48-hour turnaround. [Get a free sample edit](https://theastraforge.com/#contact).*
+*The Astra Forge is a global AI video editing agency serving clients in the UK, USA, Europe, Canada and Australia — AI UGC ads, talking-head editing, AI avatars and short-form video with 5-hour turnaround. [Get a free sample edit](https://theastraforge.com/#contact).*

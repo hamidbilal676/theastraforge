@@ -20,7 +20,7 @@ An AI video editing service is a done-for-you operation: you send raw footage (o
 
 The best AI video editing agencies in 2026 combine three things:
 
-1. **AI speed** — 48-hour turnarounds instead of 2-week timelines
+1. **AI speed** — 5-hour turnarounds instead of 2-week timelines
 2. **Human creative direction** — hooks, pacing, and storytelling judgment that software alone can't replicate
 3. **Volume economics** — pricing built for 10–30 videos a month, not one wedding video
 
@@ -48,7 +48,7 @@ AI UGC ads for Shopify stores are a different craft from talking-head course les
 
 ### 3. Transparent, cadence-based pricing
 
-The pricing model tells you everything. The best AI video editing services price by *volume and turnaround* — monthly retainers with defined deliverables (e.g., 12 short-form videos/month, 48-hour turnaround). Vague "contact for quote" pricing usually means inconsistent delivery.
+The pricing model tells you everything. The best AI video editing services price by *volume and turnaround* — monthly retainers with defined deliverables (e.g., 12 short-form videos/month, 5-hour turnaround). Vague "contact for quote" pricing usually means inconsistent delivery.
 
 2026 benchmarks for done-for-you AI video editing:
 - **Starter:** $199/month for 15 short videos
@@ -91,7 +91,7 @@ When you’re choosing a service, judge the craft, not the pitch deck. This luxu
 | | Freelancer | AI Video Editing Agency | In-House Editor |
 |---|---|---|---|
 | Monthly cost | $800–$2,500 | $199–$999 | $4,000–$7,000+ |
-| Turnaround | 3–7 days | 48 hours | Same-day (but one person) |
+| Turnaround | 3–7 days | 5 hours | Same-day (but one person) |
 | Volume | 4–10 videos/mo | 15–50+ shorts/mo | 15–25 videos/mo |
 | AI tooling | Varies | Built-in | You buy it |
 | Scales up/down | Hard | Easy | Painful |
@@ -132,7 +132,7 @@ The best results come from AI speed plus human creative direction — AI handles
 
 ### How fast is turnaround with an AI video editing agency?
 
-48 hours is the 2026 standard for short-form; 24-hour rush is commonly available. Traditional editing timelines of 1–2 weeks are obsolete for short-form content.
+5 hours is the 2026 standard for short-form. Traditional editing timelines of 1–2 weeks are obsolete for short-form content.
 
 ### Should I hire a freelancer or an AI video editing agency?
 
@@ -144,4 +144,4 @@ Raw footage (even phone clips) or just a script/idea. The best services handle c
 
 ---
 
-*The Astra Forge is a global AI video editing agency serving brands in the USA, UK, Europe, Canada, Australia and worldwide — talking-head editing, AI UGC ads, AI avatars and short-form video with 48-hour turnaround. [Get a free sample edit of your footage](https://theastraforge.com/#contact).*
+*The Astra Forge is a global AI video editing agency serving brands in the USA, UK, Europe, Canada, Australia and worldwide — talking-head editing, AI UGC ads, AI avatars and short-form video with 5-hour turnaround. [Get a free sample edit of your footage](https://theastraforge.com/#contact).*

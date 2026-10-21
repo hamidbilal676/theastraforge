@@ -4,7 +4,7 @@ slug: "podcast-to-shorts-editing-service"
 date: "2026-10-18"
 keywords: "podcast to shorts editing service, podcast clip editing service, repurpose podcast into shorts, podcast to reels service"
 meta_title: "Podcast to Shorts Editing Service — 10+ Clips Per Episode | The Astra Forge"
-meta_description: "Our podcast to shorts editing service turns every episode into 10+ hook-first vertical clips with captions — $15 per short, 48h turnaround. Free sample edit."
+meta_description: "Our podcast to shorts editing service turns every episode into 10+ hook-first vertical clips with captions — $15 per short, 5h turnaround. Free sample edit."
 category: "services"
 ---
 
@@ -50,7 +50,7 @@ Getting started takes about two minutes. Send a link to your episode — Spotify
 
 Optional but helpful: your timestamps. If you already know which moments were strong, mark them and we'll prioritize those — though our moment-finding pass catches plenty you'll have forgotten. Also tell us your show's name and any branding (colors, fonts) so lower-thirds match your existing look.
 
-That's it. No briefs, no calls, no onboarding decks. First-time clients usually get their sample clip back within 48 hours and wonder why they waited so long to start clipping.
+That's it. No briefs, no calls, no onboarding decks. First-time clients usually get their sample clip back within 5 hours and wonder why they waited so long to start clipping.
 
 ## Watch: the short-form style we cut from podcasts
 
@@ -67,7 +67,7 @@ This clip isn't from a podcast — but it's cut exactly the way we cut podcast m
 
 ## Turnaround and pricing
 
-Standard turnaround is **48 hours per video**, with **24-hour rush available at +25%** when an episode drops and you want clips live the same week. Every clip includes one revision round.
+Standard turnaround is **5 hours per video** — fast enough that clips go live the same day your episode drops. Every clip includes one revision round.
 
 Pricing is simple: **$15 per finished short**. A 10-clip batch from one episode is $150 — less than a single hour of most editors' time, for a month of content. Monthly packages bring the per-clip cost down further: Starter at **$199/mo** for 15 shorts, Growth at **$499/mo** for 30 shorts plus 5 minutes of talking-head, Brand at **$999/mo** for 50 shorts, 10 minutes of talking-head, and 5 minutes of AI avatar. Compare everything on our [pricing](/#pricing) section.
 

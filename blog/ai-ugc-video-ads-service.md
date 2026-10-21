@@ -1,18 +1,18 @@
 ---
-title: "AI UGC Video Ads Service: Scroll-Stopping Creatives in 48 Hours"
+title: "AI UGC Video Ads Service: Scroll-Stopping Creatives in 5 Hours"
 slug: "ai-ugc-video-ads-service"
 date: "2026-10-18"
 keywords: "ai ugc video ads service, ai ugc ads service, ai video ad service, ugc video ad production service"
-meta_title: "AI UGC Video Ads Service — Creatives in 48 Hours | The Astra Forge"
-meta_description: "Our AI UGC video ads service delivers hook-first ad creatives in 48 hours with full usage rights — $15 per short. Free sample ad, no commitment."
+meta_title: "AI UGC Video Ads Service — Creatives in 5 Hours | The Astra Forge"
+meta_description: "Our AI UGC video ads service delivers hook-first ad creatives in 5 hours with full usage rights — $15 per short. Free sample ad, no commitment."
 category: "services"
 ---
 
-# AI UGC Video Ads Service: Scroll-Stopping Creatives in 48 Hours
+# AI UGC Video Ads Service: Scroll-Stopping Creatives in 5 Hours
 
 Here's the math every DTC brand eventually faces: your media buyer needs 20–50 fresh ad creatives a month to find winners and replace fatiguing ones. Each traditional UGC creative costs you a casting search, creator negotiation, product shipment, filming wait, revision rounds, and a separate usage-rights negotiation. At that pace, creative production — not ad spend — becomes the bottleneck on growth.
 
-Our [AI UGC video ads](/ai-ugc-video-ads/) service removes the bottleneck. AI creators perform your scripts with natural lip-sync, we cut them into hook-first direct-response ads, and you get finished creatives in 48 hours — with full usage rights, forever.
+Our [AI UGC video ads](/ai-ugc-video-ads/) service removes the bottleneck. AI creators perform your scripts with natural lip-sync, we cut them into hook-first direct-response ads, and you get finished creatives in 5 hours — with full usage rights, forever.
 
 ## The creative testing math
 
@@ -20,7 +20,7 @@ Paid social is a volume game now. The ad that won last quarter is already fatigu
 
 Traditional UGC can't sustain that cadence. Every new creative means finding a creator, briefing them, waiting, revising, and paying — then paying again when usage rights expire. The per-creative cost stays high no matter how many you order, because each one is a relationship, not a production run.
 
-AI UGC changes the unit economics. Once your product assets are in our system, a new creative angle is a production task: new script, new AI performer, new hook — same 48-hour turnaround, same flat price. Your testing velocity goes from "as fast as creators reply" to "as fast as you can think of angles."
+AI UGC changes the unit economics. Once your product assets are in our system, a new creative angle is a production task: new script, new AI performer, new hook — same 5-hour turnaround, same flat price. Your testing velocity goes from "as fast as creators reply" to "as fast as you can think of angles."
 
 ## How our AI UGC ads are made
 
@@ -72,7 +72,7 @@ This is what an AI UGC-style product ad looks like in our hands — product-forw
 
 ## Pricing and turnaround
 
-**$15 per finished short.** One ad to test the quality, or volume from day one — same price, same 48-hour turnaround per video, one revision round included. **24-hour rush available at +25%** when a trend can't wait.
+**$15 per finished short.** One ad to test the quality, or volume from day one — same price, same 5-hour turnaround per video, one revision round included. **5-hour standard delivery** — fast enough for any trend.
 
 Monthly packages for brands testing at volume: Starter **$199/mo** (15 shorts), Growth **$499/mo** (30 shorts + 5 min talking-head), Brand **$999/mo** (50 shorts + 10 min talking-head + 5 min AI avatar). Pause or cancel anytime. Full details on our [pricing](/#pricing) section.
 

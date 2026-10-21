@@ -22,7 +22,7 @@ Three forces are converging:
 2. **Local production costs keep rising.** Videographers, editors, and studios in Sydney, Melbourne and Brisbane charge premium rates, and good freelancers are booked out weeks ahead.
 3. **AI quality crossed the line.** In 2026, AI-assisted editing — smart cuts, auto-captions, AI B-roll, synthetic voiceover, AI avatars — produces work that's genuinely hard to distinguish from traditional edits at feed resolution.
 
-The result: Australian e-commerce brands, coaches, tradies-turned-creators, real estate agents and SaaS companies are moving to AI video editing services that deliver finished videos in 48 hours at a fraction of local costs.
+The result: Australian e-commerce brands, coaches, tradies-turned-creators, real estate agents and SaaS companies are moving to AI video editing services that deliver finished videos in 5 hours at a fraction of local costs.
 
 ## What It Costs in Australia (AUD Benchmarks)
 
@@ -36,7 +36,7 @@ Compare that to a single traditional video package in Australia ($2,000–$5,000
 
 Per-video pricing (shorts from $15 USD) suits testing; retainers win past ~8 videos a month.
 
-## Time Zones: How 48-Hour Turnaround Actually Works
+## Time Zones: How 5-Hour Turnaround Actually Works
 
 A common worry: "if my editor is overseas, won't time zones slow everything down?" In practice, the opposite happens. Here's the typical workflow with a global AI video editing agency:
 
@@ -44,7 +44,7 @@ A common worry: "if my editor is overseas, won't time zones slow everything down
 - **Overnight (your time):** the editing team works while you sleep
 - **Your morning:** finished videos waiting for review
 
-The time difference becomes an advantage — a genuine overnight production cycle. What matters isn't the editor's location, it's the SLA: 48-hour standard turnaround, 24-hour rush available, and a clear revision process.
+The time difference becomes an advantage — a genuine overnight production cycle. What matters isn't the editor's location, it's the SLA: 5-hour standard turnaround, and a clear revision process.
 
 ## What Australian Brands Should Look For
 
@@ -96,7 +96,7 @@ Whatever the niche, the edit is the product. This macro product shot shows the f
 2. **Request a free sample edit** — judge quality on your own content
 3. **Start with a one-month retainer** at the tier matching your posting cadence
 4. **Set up a simple intake ritual** — a shared folder + a 5-line brief template per video
-5. **Review in batches** — approve weekly drops, request revisions within 48 hours
+5. **Review in batches** — approve weekly drops, request revisions right away
 
 Most brands go from "we should post more video" to a steady 4–7 posts weekly within the first month.
 
@@ -112,7 +112,7 @@ Yes — provided the agency takes direction on tone, slang, and pacing. The best
 
 ### Do time zone differences cause delays?
 
-No — with a 48-hour SLA, the workflow is overnight by design. You brief in the evening, videos arrive by morning. Clear revision processes matter more than location.
+No — with a 5-hour SLA, the workflow runs around the clock. You brief in the evening, videos arrive within 5 hours. Clear revision processes matter more than location.
 
 ### Can I get videos without filming anything?
 
@@ -124,4 +124,4 @@ Reputable AI video editing agencies work month-to-month. You should be able to p
 
 ---
 
-*The Astra Forge is a global AI video editing agency serving clients in Australia, the USA, UK, Europe and Canada — AI UGC ads, talking-head editing, AI avatars and short-form video with 48-hour turnaround. [Get a free sample edit](https://theastraforge.com/#contact).*
+*The Astra Forge is a global AI video editing agency serving clients in Australia, the USA, UK, Europe and Canada — AI UGC ads, talking-head editing, AI avatars and short-form video with 5-hour turnaround. [Get a free sample edit](https://theastraforge.com/#contact).*

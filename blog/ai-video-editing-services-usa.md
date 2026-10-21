@@ -28,7 +28,7 @@ Pay-per-video is also available: shorts from $15, talking-head $30/min, AI avata
 
 Per-video pricing (shorts from $15, talking-head $30/min) works for trials. Once you pass ~8 videos a month, retainers cut your cost-per-video dramatically.
 
-For context: a single US-based freelance editor typically charges $2,000–$5,000/month for 10–20 videos with 5–10 day turnarounds. AI-native services deliver 2–3x the volume at 48-hour turnaround for less.
+For context: a single US-based freelance editor typically charges $2,000–$5,000/month for 10–20 videos with 5–10 day turnarounds. AI-native services deliver 2–3x the volume at 5-hour turnaround for less.
 
 ## What "AI Video Editing" Actually Includes in 2026
 
@@ -55,7 +55,7 @@ Non-negotiable. The best agencies edit your actual footage free before you pay. 
 
 ### 3. Turnaround SLA in writing
 
-48 hours standard, 24-hour rush available. Ask what happens on a miss — the best services have make-good policies, not excuses.
+5 hours standard. Ask what happens on a miss — the best services have make-good policies, not excuses.
 
 ### 4. Revision process
 
@@ -119,7 +119,7 @@ $199–$999/month for retainers (15–50+ shorts), or from $15 per short one-off
 
 ### How fast is the turnaround?
 
-48 hours is standard for short-form; 24-hour rush is widely available. Compare to 1–2 weeks for traditional editing.
+5 hours is standard for short-form. Compare to 1–2 weeks for traditional editing.
 
 ### Is AI-edited video good enough for US audiences?
 
@@ -135,4 +135,4 @@ With reputable agencies, yes — month-to-month with no lock-in is the 2026 stan
 
 ---
 
-*The Astra Forge is a global AI video editing agency serving brands across the USA — talking-head editing, AI UGC ads, AI avatars and short-form video with 48-hour turnaround. [Get a free sample edit of your footage](https://theastraforge.com/#contact).*
+*The Astra Forge is a global AI video editing agency serving brands across the USA — talking-head editing, AI UGC ads, AI avatars and short-form video with 5-hour turnaround. [Get a free sample edit of your footage](https://theastraforge.com/#contact).*

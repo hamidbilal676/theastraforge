@@ -103,6 +103,6 @@ Take the health and wellness niche from the list above — here's what a faceles
 
 Here's the part most idea lists skip: every niche above needs consistent, professional production to win. Scripts, voiceover, editing, thumbnails, uploads — week after week. That's exactly what our [YouTube automation service](/blog/youtube-automation-service.html) handles: done-for-you faceless channels from niche research to published video.
 
-We're [The Astra Forge](/#services) (founded February 2026). **$15 per finished short-form video**, **$199–$999/month** channel packages, **48-hour turnaround** per video (24-hour rush at +25%), one revision round included — and a **free sample video** in your niche before you commit to anything.
+We're [The Astra Forge](/#services) (founded February 2026). **$15 per finished short-form video**, **$199–$999/month** channel packages, **5-hour turnaround** per video, one revision round included — and a **free sample video** in your niche before you commit to anything.
 
 **Pick your niche, then see it produced.** [Get a free sample video in your niche](/#lead-form) — no commitment, no credit card. If the quality speaks for itself, we'll talk about building the channel.

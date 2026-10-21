@@ -4,7 +4,7 @@ slug: "youtube-shorts-editing-service"
 date: "2026-10-18"
 keywords: "youtube shorts editing service, shorts video editing service, youtube shorts editor for hire"
 meta_title: "YouTube Shorts Editing Service — From $15/Short | The Astra Forge"
-meta_description: "Our YouTube Shorts editing service delivers hook-first, captioned, retention-cut shorts — $15 per short, 48h turnaround. Free sample edit."
+meta_description: "Our YouTube Shorts editing service delivers hook-first, captioned, retention-cut shorts — $15 per short, 5h turnaround. Free sample edit."
 category: "services"
 ---
 
@@ -44,13 +44,13 @@ Every short goes through the same pipeline, whether it's a standalone recording 
 
 **5. Platform-ready export.** Correct specs for Shorts, plus versions formatted for Reels and TikTok if you want them — one edit, three platforms.
 
-One revision round is included on every short, and standard turnaround is **48 hours** (24-hour rush available at +25%).
+One revision round is included on every short, and standard turnaround is **5 hours**.
 
 ## Repurposing: turn long-form into a shorts library
 
 Here's the highest-ROI use of a shorts editing service: you keep making the long videos, podcasts, or streams you already make, and we mine them for shorts. A single 20-minute video typically yields 3–5 strong shorts; a one-hour podcast episode can produce 10+. Each short points new viewers back to the long-form source — it's a discovery flywheel where every piece of content markets every other piece.
 
-If you're a podcaster, our dedicated [podcast to shorts](/blog/podcast-to-shorts-editing-service.html) workflow is built exactly for this: we find the clip-worthy moments, cut them hook-first, and deliver platform-ready verticals. Same $15 per short, same 48-hour turnaround.
+If you're a podcaster, our dedicated [podcast to shorts](/blog/podcast-to-shorts-editing-service.html) workflow is built exactly for this: we find the clip-worthy moments, cut them hook-first, and deliver platform-ready verticals. Same $15 per short, same 5-hour turnaround.
 
 ## Who this is for
 
@@ -73,8 +73,8 @@ Theory is cheap — here's the output. This YouTube Shorts edit shows the hook-f
 
 ## Pricing, plainly
 
-**$15 per finished short.** No packages required, no minimums — order one short to test the quality or a batch of thirty. Monthly packages (**$199–$999/mo**) make sense once you're publishing at volume. Every short includes one revision round and 48-hour turnaround. And the first one can be free: send us a raw clip and we'll return a finished sample edit, no commitment.
+**$15 per finished short.** No packages required, no minimums — order one short to test the quality or a batch of thirty. Monthly packages (**$199–$999/mo**) make sense once you're publishing at volume. Every short includes one revision round and 5-hour turnaround. And the first one can be free: send us a raw clip and we'll return a finished sample edit, no commitment.
 
 We're [The Astra Forge](/#services) — an AI video editing studio founded in February 2026, built specifically for creators and brands that need content at scale.
 
-**Stop letting the algorithm ignore good content.** [Get a free sample short edit](/#lead-form) — send one raw clip, get a finished short back within 48 hours. If it doesn't outperform what you're posting now, you've lost nothing.
+**Stop letting the algorithm ignore good content.** [Get a free sample short edit](/#lead-form) — send one raw clip, get a finished short back within 5 hours. If it doesn't outperform what you're posting now, you've lost nothing.

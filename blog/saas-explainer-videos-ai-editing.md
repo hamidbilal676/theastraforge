@@ -58,7 +58,7 @@ Screen recordings (your actual product), a few talking-head clips from the found
 ### 4. The update superpower
 Product shipped v2.4 with a redesigned dashboard? Re-record the 3 affected screen captures, and the video updates in hours — same voice, same style, same branding. This is the capability that changes everything: **your video library stays current with your product.**
 
-Turnaround: first explainer in under a week; updates in 24–48 hours.
+Turnaround: first explainer in under a week; updates in 5 hours.
 
 ## Watch: 3D demo-video craft
 
@@ -117,7 +117,7 @@ One week to a video library that finally keeps pace with your product.
 ## FAQ
 
 ### How long does an AI-edited SaaS explainer take?
-First video: 5–7 days including scripting and feedback rounds. Subsequent videos in the same style: 2–4 days. Updates to existing videos: 24–48 hours.
+First video: 5–7 days including scripting and feedback rounds. Subsequent videos in the same style: 2–4 days. Updates to existing videos: 5 hours.
 
 ### Will AI voiceover sound robotic to our buyers?
 Not with current voice tech. Neural voices — especially voice clones of your founder or a chosen brand voice — are effectively indistinguishable from recorded narration in explainer contexts. Most viewers never notice.

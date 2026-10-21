@@ -4,7 +4,7 @@ slug: "video-podcast-editing-service"
 date: "2026-10-18"
 keywords: "video podcast editing service, podcast video editing service, video podcast editor"
 meta_title: "Video Podcast Editing Service — Raw to Published | The Astra Forge"
-meta_description: "Our video podcast editing service handles multicam sync, filler removal, clips, chapters and show notes — from $15/short, 48h turnaround. Free sample edit."
+meta_description: "Our video podcast editing service handles multicam sync, filler removal, clips, chapters and show notes — from $15/short, 5h turnaround. Free sample edit."
 category: "services"
 ---
 
@@ -44,7 +44,7 @@ Our dedicated [podcast-to-shorts editing service](/blog/podcast-to-shorts-editin
 
 **4. We clip it.** 10+ short-form clips per episode, each cut to survive without context, captioned for mute viewing, exported for every platform.
 
-**5. You review once, we revise, you publish.** One revision round is included on everything. Standard turnaround is **48 hours** per deliverable (24-hour rush available at +25%). Most clients settle into a rhythm: record on Monday, published episode plus clips back by Wednesday, clips dripping out all week.
+**5. You review once, we revise, you publish.** One revision round is included on everything. Standard turnaround is **5 hours** per deliverable. Most clients settle into a rhythm: record on Monday, published episode plus clips back by Wednesday, clips dripping out all week.
 
 ## Watch: the clip style your podcast gets
 
@@ -63,7 +63,7 @@ Same editor, same treatment. This short-form edit shows the caption timing, hook
 
 Video podcast episodes vary in length, so we keep it simple and tied to finished output: **$15 per finished short-form clip**, and episode edits priced by finished length — our [talking-head rate](/talking-head-video-editing/) of **$30 per finished minute** applies to polished long-form edits. Monthly packages (**$199–$999/mo**) cover ongoing shows at a better effective rate.
 
-As always: start with a **free sample edit** of your own footage. Send one episode (or even one segment) and we'll return a finished cut within 48 hours — then decide.
+As always: start with a **free sample edit** of your own footage. Send one episode (or even one segment) and we'll return a finished cut within 5 hours — then decide.
 
 ## Who this is for
 
@@ -71,4 +71,4 @@ As always: start with a **free sample edit** of your own footage. Send one episo
 
 We're [The Astra Forge](/#services), an AI video editing studio founded in February 2026. Video podcasts are one of our core workflows — the same team that edits your episode cuts your clips, so the style stays consistent everywhere your content appears, from YouTube to TikTok.
 
-**Your next episode could be working ten times harder for you.** [Send us a raw recording and get a free sample edit](/#lead-form) — episode cut plus a sample clip, back within 48 hours, no commitment. If the quality speaks for itself, we'll talk about your show.
+**Your next episode could be working ten times harder for you.** [Send us a raw recording and get a free sample edit](/#lead-form) — episode cut plus a sample clip, back within 5 hours, no commitment. If the quality speaks for itself, we'll talk about your show.

@@ -57,7 +57,7 @@ Here's how it works in practice:
 4. **Trend-native edit** — pacing matched to trending audio, hook-first cuts (best shot in second one), animated captions ("TRUFFLE PASTA 🔥"), your logo and location tag.
 5. **Multi-platform delivery** — vertical for Reels/TikTok/Shorts, ready to post with suggested captions and hashtags.
 
-Turnaround: 48 hours typical. Your involvement: filming clips you'd half-film anyway, and approving posts.
+Turnaround: 5 hours typical. Your involvement: filming clips you'd half-film anyway, and approving posts.
 
 ## What Makes Food Video Convert (the Details)
 
@@ -136,4 +136,4 @@ Film the food. Let AI handle the edit. Fill the tables.
 
 ---
 
-*The Astra Forge edits crave-worthy short-form video for restaurants — kitchen clips in, trending-ready Reels out, 48-hour turnaround. [Get a free sample edit](https://theastraforge.com/#lead-form) of your signature dish.*
+*The Astra Forge edits crave-worthy short-form video for restaurants — kitchen clips in, trending-ready Reels out, 5-hour turnaround. [Get a free sample edit](https://theastraforge.com/#lead-form) of your signature dish.*

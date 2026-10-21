@@ -67,7 +67,7 @@ Here's our setup, plainly stated. We're [The Astra Forge](/#services), an AI vid
 - **Thumbnails and titles** designed as a channel-wide system
 - **Upload-ready delivery** on a consistent schedule
 
-Pricing is simple: **$15 per finished short-form video**, with **$199–$999/month packages** for ongoing channel management. Every video includes **one revision round** and a **48-hour turnaround** (24-hour rush available at +25%). And you can start with a **free sample edit** — send us your niche and we'll produce a sample video before you commit to anything.
+Pricing is simple: **$15 per finished short-form video**, with **$199–$999/month packages** for ongoing channel management. Every video includes **one revision round** and a **5-hour turnaround**. And you can start with a **free sample edit** — send us your niche and we'll produce a sample video before you commit to anything.
 
 No income promises, no subscriber guarantees — just professional production, delivered consistently, at a price that lets your channel survive long enough to compound.
 

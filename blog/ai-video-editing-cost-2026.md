@@ -32,7 +32,7 @@ A 15-second captioned Reel costs a fraction of a 3-minute product demo with 3D a
 
 ### 2. Turnaround speed
 
-48-hour standard is included in most retainers. 24-hour rush typically adds 25–50%. Same-day is possible with AI pipelines but priced accordingly.
+Turnaround is the other lever: most services charge rush fees for anything fast. We keep it simple — 5-hour delivery is our standard, with no rush fees.
 
 ### 3. Creative input required
 
@@ -56,7 +56,7 @@ Traditional editing can't match this curve — human hours don't scale. AI does.
 
 A traditional freelance editor at $40/hr spending 4 hours per short video = $160/video, 5–10 day turnaround, 10–20 videos a month max.
 
-An AI-native service delivers the same video for $30–$90 on retainer, in 48 hours, at 3x the volume. The quality gap closed in 2025 — at feed resolution, with human creative direction on top, viewers can't tell the difference.
+An AI-native service delivers the same video for $30–$90 on retainer, in 5 hours, at 3x the volume. The quality gap closed in 2025 — at feed resolution, with human creative direction on top, viewers can't tell the difference.
 
 In-house? $60,000–$90,000/year salary plus benefits, software, and management — before a single video ships.
 
@@ -85,7 +85,7 @@ Pricing only makes sense against the work. This is a full 3D-animated ad — cha
 
 ### Is $199/month for video editing worth it?
 
-If you publish 8+ videos monthly: absolutely. That's ~$13 per finished short with 48-hour turnaround — versus $150+/video and week-long waits from freelancers.
+If you publish 8+ videos monthly: absolutely. That's ~$13 per finished short with 5-hour turnaround — versus $150+/video and week-long waits from freelancers.
 
 ### Why is AI video editing so much cheaper?
 
@@ -101,4 +101,4 @@ Reputable global agencies charge flat USD rates regardless of client location �
 
 ---
 
-*The Astra Forge delivers AI-edited video from $15 per short and $199/mo retainers with 48-hour turnaround and a free sample edit — no long contracts. [See plans](https://theastraforge.com/#pricing).*
+*The Astra Forge delivers AI-edited video from $15 per short and $199/mo retainers with 5-hour turnaround and a free sample edit — no long contracts. [See plans](https://theastraforge.com/#pricing).*
