@@ -620,7 +620,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px;background:var(--bg2
 .coo-contact p{color:var(--mut)}
 .coo-contact b{color:var(--ink)}
 .coo-chips{display:flex;flex-wrap:wrap;gap:9px}
-.coo-chip{border:1.5px solid var(--line);background:#fbfdfb;border-radius:999px;padding:9px 16px;font-size:14px;font-weight:700;transition:background .2s ease,color .2s ease,border-color .2s ease,transform .2s ease}
+.coo-chip{border:1.5px solid var(--line);background:#fbfdfb;color:#173d2a;border-radius:999px;padding:9px 16px;font-size:14px;font-weight:700;transition:background .2s ease,color .2s ease,border-color .2s ease,transform .2s ease}
 .coo-chip:hover{background:var(--green);border-color:var(--green);color:#fff;transform:translateY(-2px)}
 .coo-sec .coo-card:last-of-type{margin-top:22px}
 .coo-cta{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 28px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;box-shadow:var(--sh)}
