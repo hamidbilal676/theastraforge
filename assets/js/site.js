@@ -248,17 +248,82 @@ document.querySelectorAll("video").forEach(function (v) {
 })();
 
 // YouTube click-to-load facades: the real thumbnail shows first; the player loads on click (with sound).
-document.addEventListener('click', function (e) {
-  var f = e.target && e.target.closest ? e.target.closest('.yt-facade') : null;
-  if (!f) return;
-  var id = f.getAttribute('data-yt');
-  if (!id) return;
-  var ifr = document.createElement('iframe');
-  ifr.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
-  ifr.title = f.getAttribute('data-title') || 'YouTube video';
-  ifr.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
-  ifr.setAttribute('allowfullscreen', '');
-  var ratio = f.getAttribute('data-ratio') || '16/9';
-  ifr.style.cssText = 'width:100%;display:block;aspect-ratio:' + ratio + ';border:0;background:#000';
-  f.replaceWith(ifr);
-});
+// Playback is forced to HD (1080p) via the IFrame API; if the API cannot load, fall back to a plain embed.
+(function () {
+  var jobs = [], apiLoading = false;
+  function forceHD(player) {
+    try {
+      if (player && player.setPlaybackQualityRange) player.setPlaybackQualityRange('hd1080', 'hd1080');
+      else if (player && player.setPlaybackQuality) player.setPlaybackQuality('hd1080');
+    } catch (e) {}
+  }
+  function plainEmbed(holder, id, title) {
+    var ifr = document.createElement('iframe');
+    ifr.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+    ifr.title = title;
+    ifr.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
+    ifr.setAttribute('allowfullscreen', '');
+    ifr.style.cssText = 'width:100%;height:100%;display:block;border:0;background:#000';
+    holder.appendChild(ifr);
+  }
+  function createPlayer(job) {
+    if (job.done) return;
+    job.done = true;
+    try {
+      var inner = document.createElement('div');
+      job.holder.appendChild(inner);
+      new YT.Player(inner, {
+        videoId: job.id,
+        width: '100%',
+        height: '100%',
+        playerVars: { autoplay: 1, rel: 0, playsinline: 1 },
+        events: {
+          onReady: function (ev) {
+            try {
+              var ifr = ev.target.getIframe && ev.target.getIframe();
+              if (ifr) ifr.style.cssText = 'width:100%;height:100%;display:block;border:0;background:#000';
+            } catch (e) {}
+            forceHD(ev.target);
+            try { ev.target.playVideo(); } catch (e) {}
+          },
+          onStateChange: function (ev) { if (ev.data === YT.PlayerState.PLAYING) forceHD(ev.target); }
+        }
+      });
+    } catch (e) { plainEmbed(job.holder, job.id, job.title); }
+  }
+  function flushJobs() {
+    var q = jobs; jobs = [];
+    q.forEach(createPlayer);
+  }
+  function fallbackJobs() {
+    var q = jobs; jobs = [];
+    q.forEach(function (job) {
+      if (job.done) return;
+      job.done = true;
+      plainEmbed(job.holder, job.id, job.title);
+    });
+  }
+  window.onYouTubeIframeAPIReady = function () { flushJobs(); };
+  function ensureApi() {
+    if (window.YT && YT.Player) { flushJobs(); return; }
+    if (apiLoading) return;
+    apiLoading = true;
+    var tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    tag.onerror = fallbackJobs;
+    document.head.appendChild(tag);
+    setTimeout(function () { if (!(window.YT && YT.Player)) fallbackJobs(); }, 6000);
+  }
+  document.addEventListener('click', function (e) {
+    var f = e.target && e.target.closest ? e.target.closest('.yt-facade') : null;
+    if (!f) return;
+    var id = f.getAttribute('data-yt');
+    if (!id) return;
+    var ratio = f.getAttribute('data-ratio') || '16/9';
+    var holder = document.createElement('div');
+    holder.style.cssText = 'width:100%;display:block;aspect-ratio:' + ratio + ';background:#000';
+    f.replaceWith(holder);
+    jobs.push({ holder: holder, id: id, title: f.getAttribute('data-title') || 'YouTube video', done: false });
+    ensureApi();
+  });
+})();
