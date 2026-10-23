@@ -246,3 +246,19 @@ document.querySelectorAll("video").forEach(function (v) {
     els.forEach(function(el){io.observe(el);});
   }
 })();
+
+// YouTube click-to-load facades: the real thumbnail shows first; the player loads on click (with sound).
+document.addEventListener('click', function (e) {
+  var f = e.target && e.target.closest ? e.target.closest('.yt-facade') : null;
+  if (!f) return;
+  var id = f.getAttribute('data-yt');
+  if (!id) return;
+  var ifr = document.createElement('iframe');
+  ifr.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+  ifr.title = f.getAttribute('data-title') || 'YouTube video';
+  ifr.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
+  ifr.setAttribute('allowfullscreen', '');
+  var ratio = f.getAttribute('data-ratio') || '16/9';
+  ifr.style.cssText = 'width:100%;display:block;aspect-ratio:' + ratio + ';border:0;background:#000';
+  f.replaceWith(ifr);
+});
