@@ -32,6 +32,8 @@
 5. Podcast to Shorts — long episodes repurposed into high-retention vertical clips. https://theastraforge.com/podcast-to-shorts/
 6. Product Video Animation — 3D product animation and product videos for e-commerce. https://theastraforge.com/product-video-animation/
 7. Explainer Videos — animated explainers and demos for SaaS and startups. https://theastraforge.com/explainer-videos/
+- YouTube Automation — Short-Form Videos: only the shorts our automation program produces. https://theastraforge.com/youtube-automation-service/short-form/
+- YouTube Automation — Long-Form Videos: only full-length videos from the same pipeline. https://theastraforge.com/youtube-automation-service/long-form/
 
 ## Industries served (dedicated pages)
 - Coaches & course creators: https://theastraforge.com/industries/coaches
